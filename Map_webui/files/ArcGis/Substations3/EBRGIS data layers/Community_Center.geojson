@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Community_Center",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 44, "DESCRIPTION": "Jewel J. Newman Community Center", "FACILITY_TYPE": "COMMUNITY CENTER", "AGENCY": "COMMUNITY DEVELOPMENT", "FULL_ADDRESS": "2013 CENTRAL RD", "CITY": "BATON ROUGE", "STATE": "LOUISIANA", "ZIP": 70807 }, "geometry": { "type": "Point", "coordinates": [ -91.172610299809378, 30.535772716696659 ] } },
+{ "type": "Feature", "properties": { "ID": 234, "DESCRIPTION": "Chaneyville Community Center", "FACILITY_TYPE": "COMMUNITY CENTER", "AGENCY": "COMMUNITY DEVELOPMENT", "FULL_ADDRESS": "13211 JACKSON RD", "CITY": "ZACHARY", "STATE": "LOUISIANA", "ZIP": 70791 }, "geometry": { "type": "Point", "coordinates": [ -91.023766389660508, 30.686199616668059 ] } },
+{ "type": "Feature", "properties": { "ID": 249, "DESCRIPTION": "Dr. Martin Luther King, Jr. Community Center", "FACILITY_TYPE": "COMMUNITY CENTER", "AGENCY": "COMMUNITY DEVELOPMENT", "FULL_ADDRESS": "4142 GUS YOUNG AVE", "CITY": "BATON ROUGE", "STATE": "LOUISIANA", "ZIP": 70802 }, "geometry": { "type": "Point", "coordinates": [ -91.14904718839054, 30.4617599912199 ] } },
+{ "type": "Feature", "properties": { "ID": 420, "DESCRIPTION": "Charles R. Kelly Community Center", "FACILITY_TYPE": "COMMUNITY CENTER", "AGENCY": "COMMUNITY DEVELOPMENT", "FULL_ADDRESS": "3535 RILEY ST", "CITY": "BATON ROUGE", "STATE": "LOUISIANA", "ZIP": 70805 }, "geometry": { "type": "Point", "coordinates": [ -91.155203029478486, 30.498891337417401 ] } },
+{ "type": "Feature", "properties": { "ID": 428, "DESCRIPTION": "Zachary Rural Program", "FACILITY_TYPE": "COMMUNITY CENTER", "AGENCY": "COMMUNITY DEVELOPMENT", "FULL_ADDRESS": "5746 ROLLINS RD", "CITY": "ZACHARY", "STATE": "LOUISIANA", "ZIP": 70791 }, "geometry": { "type": "Point", "coordinates": [ -91.157054319258833, 30.658404139191784 ] } },
+{ "type": "Feature", "properties": { "ID": 528, "DESCRIPTION": "Dr. Leo S. Butler Community Center", "FACILITY_TYPE": "COMMUNITY CENTER", "AGENCY": "COMMUNITY DEVELOPMENT", "FULL_ADDRESS": "950 LORRI BURGESS AVE", "CITY": "BATON ROUGE", "STATE": "LOUISIANA", "ZIP": 70802 }, "geometry": { "type": "Point", "coordinates": [ -91.175792731324947, 30.430942813940469 ] } }
+]
+}
