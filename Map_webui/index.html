@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBRP Outage Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div>
+            <p class="eyebrow">East Baton Rouge Parish</p>
+            <h1>Hurricane Power Grid Outage Dashboard</h1>
+        </div>
+        <nav>
+            <a href="./pages/resources.html">Resources</a>
+            <a href="/download">Spreadsheet</a>
+            <a href="/download-map">Map data</a>
+        </nav>
+    </header>
+
+    <main class="shell">
+        <section class="mapPanel" aria-label="Outage map">
+            <div class="mapToolbar">
+                <div class="legend">
+                    <span><i class="swatch served"></i> Served</span>
+                    <span><i class="swatch partial"></i> Partial outage</span>
+                    <span><i class="swatch full"></i> Full outage</span>
+                </div>
+                <div id="mapHint">Loading ArcGIS-derived census block layer...</div>
+            </div>
+            <svg id="map" role="img" aria-label="Census blocks colored by outage status"></svg>
+            <div id="buildingMarkers" class="buildingMarkers" aria-hidden="true"></div>
+            <aside id="hoverCard" class="hoverCard" hidden></aside>
+        </section>
+
+        <aside class="controlPanel">
+            <section class="panelSection">
+                <h2>Scenario</h2>
+                <label for="scenarioSource">Inundation source</label>
+                <select id="scenarioSource">
+                    <option value="H">Hurricane category</option>
+                    <option value="N">No inundation</option>
+                    <option value="G">Custom CSV, depth from ground</option>
+                    <option value="S">Custom CSV, elevation from sea level</option>
+                </select>
+
+                <label for="hCategory">Hurricane category</label>
+                <select id="hCategory">
+                    <option value="1">Category 1</option>
+                    <option value="2" selected>Category 2</option>
+                    <option value="3">Category 3</option>
+                    <option value="4">Category 4</option>
+                    <option value="5">Category 5</option>
+                </select>
+
+                <label for="customCsv">Custom inundation CSV</label>
+                <input id="customCsv" type="file" accept=".csv">
+
+                <div class="actions">
+                    <button type="button" id="calculateButton">Recalculate</button>
+                    <button type="button" id="resetButton" class="secondary">Reset</button>
+                </div>
+                <p id="status" class="statusText">Ready.</p>
+            </section>
+
+            <section class="metricGrid" aria-label="Outage summary">
+                <div>
+                    <span>Total outage</span>
+                    <strong id="totalMw">0 MW</strong>
+                </div>
+                <div>
+                    <span>Full outage</span>
+                    <strong id="fullMw">0 MW</strong>
+                </div>
+                <div>
+                    <span>Partial outage</span>
+                    <strong id="partialMw">0 MW</strong>
+                </div>
+                <div>
+                    <span>Affected households</span>
+                    <strong id="households">0</strong>
+                </div>
+            </section>
+
+            <section class="panelSection">
+                <h2>Affected Building Loads</h2>
+                <p id="buildingSelectionStatus" class="buildingSelectionStatus">No category selected.</p>
+                <div id="buildingLoads" class="buildingLoads"></div>
+            </section>
+        </aside>
+    </main>
+
+    <script>
+        const map = document.getElementById("map");
+        const hoverCard = document.getElementById("hoverCard");
+        const buildingMarkers = document.getElementById("buildingMarkers");
+        const buildingLoads = document.getElementById("buildingLoads");
+        const buildingSelectionStatus = document.getElementById("buildingSelectionStatus");
+        const statusText = document.getElementById("status");
+        const mapHint = document.getElementById("mapHint");
+        let featureLayer = null;
+        let featurePaths = new Map();
+        let buildingLayer = null;
+        let buildingOverlay = null;
+        let mapProjection = null;
+        let activeBuildingCategory = null;
+
+        const colors = {
+            served: "#6fbf73",
+            partial: "#f1b84b",
+            full: "#d94b4b"
+        };
+
+        function fmtNumber(value) {
+            return new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 }).format(value || 0);
+        }
+
+        function fmtMw(value) {
+            return `${new Intl.NumberFormat(undefined, { maximumFractionDigits: 1 }).format(value || 0)} MW`;
+        }
+
+        function projectBounds(geojson) {
+            const bounds = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+            const visit = ([x, y]) => {
+                bounds.minX = Math.min(bounds.minX, x);
+                bounds.maxX = Math.max(bounds.maxX, x);
+                bounds.minY = Math.min(bounds.minY, y);
+                bounds.maxY = Math.max(bounds.maxY, y);
+            };
+            geojson.features.forEach(feature => {
+                const geom = feature.geometry;
+                const polys = geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates;
+                polys.forEach(poly => poly.forEach(ring => ring.forEach(visit)));
+            });
+            return bounds;
+        }
+
+        function makeProjection(bounds, width, height) {
+            const pad = 18;
+            const sx = (width - pad * 2) / (bounds.maxX - bounds.minX);
+            const sy = (height - pad * 2) / (bounds.maxY - bounds.minY);
+            const scale = Math.min(sx, sy);
+            return ([x, y]) => [
+                pad + (x - bounds.minX) * scale,
+                height - pad - (y - bounds.minY) * scale
+            ];
+        }
+
+        function pathForGeometry(geom, project) {
+            const drawRing = ring => ring.map(([x, y], index) => {
+                const [px, py] = project([x, y]);
+                return `${index === 0 ? "M" : "L"}${px.toFixed(2)},${py.toFixed(2)}`;
+            }).join(" ") + " Z";
+            const polys = geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates;
+            return polys.map(poly => poly.map(drawRing).join(" ")).join(" ");
+        }
+
+        function drawMap(geojson) {
+            featureLayer = geojson;
+            featurePaths = new Map();
+            const width = map.clientWidth || 900;
+            const height = map.clientHeight || 620;
+            const bounds = projectBounds(geojson);
+            mapProjection = makeProjection(bounds, width, height);
+            map.setAttribute("viewBox", `0 0 ${width} ${height}`);
+            map.replaceChildren();
+
+            const fragment = document.createDocumentFragment();
+            geojson.features.forEach(feature => {
+                const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+                const status = feature.properties.dashboard_status || "served";
+                path.setAttribute("d", pathForGeometry(feature.geometry, mapProjection));
+                path.setAttribute("fill", colors[status] || colors.served);
+                path.setAttribute("class", `block ${status}`);
+                path.addEventListener("mousemove", event => showHover(event, feature.properties));
+                path.addEventListener("mouseleave", () => hoverCard.hidden = true);
+                fragment.appendChild(path);
+                featurePaths.set(String(feature.id), path);
+            });
+            map.appendChild(fragment);
+            buildingOverlay = document.createElementNS("http://www.w3.org/2000/svg", "g");
+            buildingOverlay.setAttribute("class", "buildingOverlay");
+            map.appendChild(buildingOverlay);
+            mapHint.textContent = `${geojson.features.length.toLocaleString()} census-block service polygons`;
+            if (activeBuildingCategory) {
+                showAffectedBuildings(activeBuildingCategory);
+            }
+        }
+
+        function applyStatuses(data) {
+            if (!featureLayer || !data.statuses) return;
+            const byId = new Map(data.statuses.map(item => [String(item.id), item]));
+            featureLayer.features.forEach(feature => {
+                const item = byId.get(String(feature.id));
+                if (!item) return;
+                feature.properties.dashboard_status = item.status;
+                feature.properties.dashboard_full_substations = item.full;
+                feature.properties.dashboard_partial_substations = item.partial;
+                feature.properties.dashboard_total_substations = item.total;
+                const path = featurePaths.get(String(feature.id));
+                if (path) {
+                    path.setAttribute("fill", colors[item.status] || colors.served);
+                    path.setAttribute("class", `block ${item.status}`);
+                }
+            });
+        }
+
+        function showHover(event, props) {
+            const status = (props.dashboard_status || "served").replace(/^\w/, c => c.toUpperCase());
+            hoverCard.innerHTML = `
+                <strong>${status}</strong>
+                <span>Tract ${props.TRACT || "n/a"}, block ${props.BLOCK || "n/a"}</span>
+                <span>${props.dashboard_full_substations || 0} full, ${props.dashboard_partial_substations || 0} partial of ${props.dashboard_total_substations || 0} substations</span>
+                <span>${fmtNumber(props.HH_UNITS || 0)} households</span>
+            `;
+            const rect = map.getBoundingClientRect();
+            hoverCard.style.left = `${Math.min(rect.width - 230, event.clientX - rect.left + 14)}px`;
+            hoverCard.style.top = `${Math.max(12, event.clientY - rect.top + 14)}px`;
+            hoverCard.hidden = false;
+        }
+
+        function showBuildingHover(event, props, status) {
+            hoverCard.innerHTML = `
+                <strong>${props.label || "Building load"}</strong>
+                <span>${props.address || props.source_category || "Affected building"}</span>
+                <span>${status === "full" ? "Full outage" : "Partial outage"}</span>
+                <span>${fmtNumber(props.load_kw)} kW</span>
+            `;
+            const rect = map.getBoundingClientRect();
+            hoverCard.style.left = `${Math.min(rect.width - 230, event.clientX - rect.left + 14)}px`;
+            hoverCard.style.top = `${Math.max(12, event.clientY - rect.top + 14)}px`;
+            hoverCard.hidden = false;
+        }
+
+        function clearBuildingOverlay() {
+            activeBuildingCategory = null;
+            if (buildingOverlay) buildingOverlay.replaceChildren();
+            buildingMarkers.replaceChildren();
+            buildingSelectionStatus.textContent = "No category selected.";
+            document.querySelectorAll(".loadRow.selected").forEach(row => row.classList.remove("selected"));
+            if (featureLayer) {
+                mapHint.textContent = `${featureLayer.features.length.toLocaleString()} census-block service polygons`;
+            }
+        }
+
+        function statusForServiceFeature(serviceFeatureId) {
+            if (!featureLayer) return "served";
+            const feature = featureLayer.features.find(item => String(item.id) === String(serviceFeatureId));
+            return feature?.properties?.dashboard_status || "served";
+        }
+
+        async function showAffectedBuildings(field) {
+            const label = document.querySelector(`.loadRow[data-field="${field}"] span`)?.textContent || "building";
+            buildingSelectionStatus.textContent = `Selected: ${label}`;
+            mapHint.textContent = `Loading ${label.toLowerCase()} locations...`;
+            if (!buildingOverlay || !mapProjection) {
+                buildingSelectionStatus.textContent = `Selected: ${label}; map is still loading.`;
+                return;
+            }
+            const loaded = await loadBuildingLayer();
+            if (!loaded) {
+                mapHint.textContent = "Building location layer is unavailable. Regenerate dashboard_buildings.geojson and refresh.";
+                buildingSelectionStatus.textContent = `Selected: ${label}; building layer unavailable.`;
+                return;
+            }
+            activeBuildingCategory = field;
+            buildingOverlay.replaceChildren();
+            buildingMarkers.replaceChildren();
+            document.querySelectorAll(".loadRow").forEach(row => {
+                row.classList.toggle("selected", row.dataset.field === field);
+            });
+
+            const fragment = document.createDocumentFragment();
+            const markerFragment = document.createDocumentFragment();
+            let count = 0;
+            buildingLayer.features.forEach(feature => {
+                const props = feature.properties || {};
+                if (props.category !== field) return;
+                const status = statusForServiceFeature(props.serviceFeatureId);
+                if (status !== "full" && status !== "partial") return;
+                const [x, y] = mapProjection(feature.geometry.coordinates);
+                const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                circle.setAttribute("cx", x.toFixed(2));
+                circle.setAttribute("cy", y.toFixed(2));
+                circle.setAttribute("r", status === "full" ? "6.2" : "5.2");
+                circle.setAttribute("class", `buildingDot ${status}`);
+                circle.addEventListener("mousemove", event => showBuildingHover(event, props, status));
+                circle.addEventListener("mouseleave", () => hoverCard.hidden = true);
+                fragment.appendChild(circle);
+
+                const marker = document.createElement("button");
+                marker.type = "button";
+                marker.className = `buildingMarker ${status}`;
+                marker.style.left = `${x}px`;
+                marker.style.top = `${y}px`;
+                marker.title = `${props.label || "Building load"} - ${fmtNumber(props.load_kw)} kW`;
+                marker.addEventListener("mousemove", event => showBuildingHover(event, props, status));
+                marker.addEventListener("mouseleave", () => hoverCard.hidden = true);
+                markerFragment.appendChild(marker);
+                count += 1;
+            });
+            buildingOverlay.appendChild(fragment);
+            map.appendChild(buildingOverlay);
+            buildingMarkers.appendChild(markerFragment);
+
+            mapHint.textContent = count
+                ? `Showing ${count.toLocaleString()} affected ${label.toLowerCase()} location${count === 1 ? "" : "s"}`
+                : `No affected ${label.toLowerCase()} locations to show`;
+            buildingSelectionStatus.textContent = count
+                ? `${label}: ${count.toLocaleString()} affected locations shown.`
+                : `${label}: no affected locations found.`;
+        }
+
+        function updateSummary(data) {
+            const summary = data.summary;
+            document.getElementById("totalMw").textContent = fmtMw(summary.total_full_and_partial_mw);
+            document.getElementById("fullMw").textContent = fmtMw(summary.full_outage_mw);
+            document.getElementById("partialMw").textContent = fmtMw(summary.partial_outage_mw);
+            document.getElementById("households").textContent = fmtNumber(
+                summary.residential_full_customers + summary.residential_partial_customers
+            );
+
+            const rows = Object.entries(data.load_labels).map(([field, label]) => {
+                const fullMw = summary.building_full_mw[field] || 0;
+                const partialMw = summary.building_partial_mw[field] || 0;
+                const customers = (summary.building_full_customers[field] || 0) + (summary.building_partial_customers[field] || 0);
+                return { field, label, mw: fullMw + partialMw, customers };
+            }).filter(row => row.mw > 0 || row.customers > 0)
+              .sort((a, b) => b.mw - a.mw);
+
+            document.getElementById("buildingLoads").innerHTML = rows.length ? rows.map(row => `
+                <div class="loadRow" role="button" tabindex="0" data-field="${row.field}">
+                    <span>${row.label}</span>
+                    <strong>${fmtMw(row.mw)}</strong>
+                    <em>${fmtNumber(row.customers)} affected</em>
+                </div>
+            `).join("") : `<p class="empty">No building-type outage load in this scenario.</p>`;
+        }
+
+        async function loadBuildingLayer() {
+            if (buildingLayer) return true;
+            const response = await fetch("/data/dashboard_buildings.geojson");
+            if (!response.ok) return false;
+            buildingLayer = await response.json();
+            return true;
+        }
+
+        function scenarioForm(includeGeojson = false) {
+            const source = document.getElementById("scenarioSource").value;
+            const category = document.getElementById("hCategory").value;
+            const csv = document.getElementById("customCsv").files[0];
+            const form = new FormData();
+            form.append("source", source);
+            form.append("category", category);
+            if (includeGeojson) form.append("includeGeojson", "1");
+            if (csv) form.append("customCsv", csv);
+            return form;
+        }
+
+        async function loadState() {
+            statusText.textContent = "Calculating initial scenario in LibreOffice...";
+            const [response] = await Promise.all([
+                fetch("/calculate", { method: "POST", body: scenarioForm(true) }),
+                loadBuildingLayer()
+            ]);
+            const data = await response.json();
+            if (!data.success) throw new Error(data.error || "Could not calculate startup state");
+            updateSummary(data);
+            drawMap(data.geojson);
+            statusText.textContent = "Ready.";
+        }
+
+        async function calculateSpreadsheet() {
+            const button = document.getElementById("calculateButton");
+            clearBuildingOverlay();
+            statusText.textContent = "Recalculating in LibreOffice...";
+            button.disabled = true;
+
+            try {
+                const form = scenarioForm(false);
+                const response = await fetch("/calculate", { method: "POST", body: form });
+                const data = await response.json();
+                if (!data.success) throw new Error(data.error || "Calculation failed");
+                updateSummary(data);
+                if (data.geojson) {
+                    drawMap(data.geojson);
+                } else {
+                    applyStatuses(data);
+                }
+                const csvNote = data.custom_csv && data.custom_csv.rows
+                    ? ` CSV rows matched: ${data.custom_csv.matched}/${data.custom_csv.rows}.`
+                    : "";
+                statusText.textContent = `Calculation complete.${csvNote}`;
+            } catch (err) {
+                statusText.textContent = `Calculation failed: ${err.message || err}`;
+            } finally {
+                button.disabled = false;
+            }
+        }
+
+        async function resetSpreadsheet() {
+            statusText.textContent = "Resetting spreadsheet...";
+            const response = await fetch("/reset", { method: "POST" });
+            const data = await response.json();
+            if (!data.success) {
+                statusText.textContent = `Reset failed: ${data.error}`;
+                return;
+            }
+            document.getElementById("scenarioSource").value = "H";
+            document.getElementById("hCategory").value = "2";
+            document.getElementById("customCsv").value = "";
+            clearBuildingOverlay();
+            updateSummary(data);
+            if (data.geojson) {
+                drawMap(data.geojson);
+            } else {
+                applyStatuses(data);
+            }
+            statusText.textContent = "Spreadsheet reset complete.";
+        }
+
+        document.getElementById("calculateButton").addEventListener("click", calculateSpreadsheet);
+        document.getElementById("resetButton").addEventListener("click", resetSpreadsheet);
+        buildingLoads.addEventListener("click", event => {
+            const row = event.target.closest(".loadRow");
+            if (!row || !buildingLoads.contains(row)) return;
+            showAffectedBuildings(row.dataset.field).catch(err => {
+                mapHint.textContent = `Building layer failed: ${err.message || err}`;
+                buildingSelectionStatus.textContent = `Building layer failed: ${err.message || err}`;
+            });
+        });
+        buildingLoads.addEventListener("keydown", event => {
+            if (event.key !== "Enter" && event.key !== " ") return;
+            const row = event.target.closest(".loadRow");
+            if (!row || !buildingLoads.contains(row)) return;
+            event.preventDefault();
+            row.click();
+        });
+        window.addEventListener("resize", () => featureLayer && drawMap(featureLayer));
+        loadState().catch(err => {
+            statusText.textContent = `Startup failed: ${err.message || err}`;
+            mapHint.textContent = "Map layer unavailable.";
+        });
+    </script>
+</body>
+</html>
