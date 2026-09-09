@@ -1,0 +1,2396 @@
+[
+  {
+    "source": "Hurricane probability/2011AtlanticHurricaneSummaryearlyrelease.pdf",
+    "destination": "Hurricane/Historical storm reports/2011AtlanticHurricaneSummaryearlyrelease.pdf",
+    "bytes": 1671562,
+    "sha256": "4aca6d092f049b0aedf9d0779c0fd761086618109ab46865ea0738da1df8729d"
+  },
+  {
+    "source": "Hurricane probability/AEP_Louisiana_August2016.pdf",
+    "destination": "Hurricane/Probability/Rainfall exceedance/AEP_Louisiana_August2016.pdf",
+    "bytes": 1290759,
+    "sha256": "14aeea0cd17996aeb57cf6ee48f06de27f4521f490ae25194f3c05caa8bbd039"
+  },
+  {
+    "source": "Hurricane probability/bams-bams-d-17-0184.1.pdf",
+    "destination": "Hurricane/Probability/Intensity and frequency/bams-bams-d-17-0184.1.pdf",
+    "bytes": 5180001,
+    "sha256": "45f867f9744dd5af95dbee48789ddfc8685e83711e478d68759e796257de3527"
+  },
+  {
+    "source": "Hurricane probability/From dr Ozdemir/14289jpm_lecture-1.pdf",
+    "destination": "Hurricane/Probability/Joint probability methods/14289jpm_lecture-1.pdf",
+    "bytes": 1850563,
+    "sha256": "58fb981110e3bdfd61133bc41e5c1e572d248f4b2324d88bacf11a1b2abe2178"
+  },
+  {
+    "source": "Hurricane probability/From dr Ozdemir/R2_Joint_Probablity_Analysis-2.pdf",
+    "destination": "Hurricane/Probability/Joint probability methods/R2_Joint_Probablity_Analysis-2.pdf",
+    "bytes": 5948485,
+    "sha256": "0d85d7b8be9eda75732a034e26520120aec5de936dfbffd975253ab7b29c3313"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/Attachment-C2-4_FINAL_5.15.2017.pdf",
+    "destination": "Hurricane/Probability/Intensity and frequency/Attachment-C2-4_FINAL_5.15.2017.pdf",
+    "bytes": 544377,
+    "sha256": "81e02d768a4a5fb238ee47634bc29adb6d21666a5f065f7d225d52bdd7a68cad"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/colostate/hp1.png",
+    "destination": "Hurricane/Probability/Landfall/Colorado State/hp1.png",
+    "bytes": 175837,
+    "sha256": "416ad4d097711060193f5ccec7716693e12135075d3edd13bdbfb6d505406ab1"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/colostate/hp2.png",
+    "destination": "Hurricane/Probability/Landfall/Colorado State/hp2.png",
+    "bytes": 146131,
+    "sha256": "c9d5ded3ae8e1127d309d9bbda1753d9f7b294252914d390b924a82eeefc76ca"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/colostate/hp3.png",
+    "destination": "Hurricane/Probability/Landfall/Colorado State/hp3.png",
+    "bytes": 61342,
+    "sha256": "c5831a4ad0416aea973241f087bf1c4658bdeb24fe3fe4790df8b52088f9ae04"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/colostate/hp4.png",
+    "destination": "Hurricane/Probability/Landfall/Colorado State/hp4.png",
+    "bytes": 64549,
+    "sha256": "464ea837aa348f6d8bce14d31e616a1311b860d6ed6186272c4bdb9d849af211"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/colostate/hp5.png",
+    "destination": "Hurricane/Probability/Landfall/Colorado State/hp5.png",
+    "bytes": 347206,
+    "sha256": "d6839ad784e4dd9505652d160e370250ba1c9ce79c0c828c05aee773150503ea"
+  },
+  {
+    "source": "Hurricane probability/Have probabilities for Louisiana or BR/colostate/landfall_probabilities.csv",
+    "destination": "Hurricane/Probability/Landfall/Colorado State/landfall_probabilities.csv",
+    "bytes": 11590,
+    "sha256": "129182ee6dca57e058cca38bd94e39282218193b22a67cd788af608c95b3acf5"
+  },
+  {
+    "source": "Hurricane probability/Storm-Data-Bulk-csv-Format.pdf",
+    "destination": "Hurricane/Historical storm data/Storm-Data-Bulk-csv-Format.pdf",
+    "bytes": 147087,
+    "sha256": "76d2b01d1adff8fe7a510e9aacc4446e09cdc79ded89ee13281a6f91f840f0c3"
+  },
+  {
+    "source": "Hurricane probability/StormEvents_locations-ftp_v1.0_d2025_c20250818.csv.gz",
+    "destination": "Hurricane/Historical storm data/StormEvents_locations-ftp_v1.0_d2025_c20250818.csv.gz",
+    "bytes": 457117,
+    "sha256": "bb1664129996b6734070fa34c3b1e2f89b95a05c80b4a35421bcc2a0084606b8"
+  },
+  {
+    "source": "Flood decay time/144. Governor’s Advisory Commission, Louisiana’s Comprehensive Master Plan for Sustainable Coast_Part1.pdf",
+    "destination": "Hurricane/Effects/Flood/Regional flood defenses/144. Governor’s Advisory Commission, Louisiana’s Comprehensive Master Plan for Sustainable Coast_Part1.pdf",
+    "bytes": 19975412,
+    "sha256": "13f691339e3eac7bd7865457f4c3f23a80c30ef343842d8c427df387f0afd8b1"
+  },
+  {
+    "source": "Flood decay time/15-ARBC-August-2016-Flood-Preliminary-Report.pdf",
+    "destination": "Hurricane/Effects/Flood/Surge and flood studies/15-ARBC-August-2016-Flood-Preliminary-Report.pdf",
+    "bytes": 10886996,
+    "sha256": "234c9ed9e3854cfaef39c2381b86cec9a1180e79f67f9bd604aa3169cb0c9afe"
+  },
+  {
+    "source": "Flood decay time/6170105 1.pdf",
+    "destination": "Hurricane/Effects/Flood/Transport vulnerability/6170105 1.pdf",
+    "bytes": 23050645,
+    "sha256": "6e6b87d35f6d603a865a0794881cc79587a5983ad1f4aa38f79f46d5be3a0ddc"
+  },
+  {
+    "source": "Flood decay time/Flood rise and decay times.ods",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Flood rise and decay times.ods",
+    "bytes": 34436,
+    "sha256": "83e94cadbb28038ed4001e03b2612f96abc288fcb00d5a055dd3816b8e085c9c"
+  },
+  {
+    "source": "Flood decay time/Gustav 4.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav 4.png",
+    "bytes": 150670,
+    "sha256": "634bf0dc6232904923f2381e0efa6e54a574170caaa9aa7e9d3abdae669071ea"
+  },
+  {
+    "source": "Flood decay time/Gustav1.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav1.png",
+    "bytes": 133537,
+    "sha256": "0ce8f464c4c9f5225513317b689e15a4f9a9732a2e8c7fe71fbf9c87b03540c7"
+  },
+  {
+    "source": "Flood decay time/Gustav3.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav3.png",
+    "bytes": 141092,
+    "sha256": "fd70067e45ad2cfde0be0fc17f54e2a23e08e013b95555c8e038a8ab6c988449"
+  },
+  {
+    "source": "Flood decay time/Gustav5.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav5.png",
+    "bytes": 115326,
+    "sha256": "13cf43bd425504397a92a4ac28b4c4c99b465859e56e44f532da2a20bfd2a137"
+  },
+  {
+    "source": "Flood decay time/Ida 4.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Ida/Ida 4.png",
+    "bytes": 145031,
+    "sha256": "5d6092d2d85776f42dad435b45c125f2fc063f0ba0ef3e1117325ecdf66566b3"
+  },
+  {
+    "source": "Flood decay time/Ida1.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Ida/Ida1.png",
+    "bytes": 133671,
+    "sha256": "2a09c01aaf7210239ee2febe4c2445a1ec17b8e4f5cca836d3be312cd8c0fe25"
+  },
+  {
+    "source": "Flood decay time/Ida5.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Ida/Ida5.png",
+    "bytes": 119597,
+    "sha256": "5402c6f93a63fd4b5351dab46cbbcb34a336334dc76c89a27bc3601e173b673f"
+  },
+  {
+    "source": "Flood decay time/Ida_4_2.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Ida/Ida_4_2.png",
+    "bytes": 156538,
+    "sha256": "033d06a708002ff1f7a8e3ceeb431612e8d91777cbf79b29229cf8964adf9a63"
+  },
+  {
+    "source": "Flood decay time/Isaac1.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac1.png",
+    "bytes": 559282,
+    "sha256": "dcd375abbc26547d3c6eab4c8c20d0829e083056d42044d1c819c48946a48e9c"
+  },
+  {
+    "source": "Flood decay time/Isaac2.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac2.png",
+    "bytes": 139259,
+    "sha256": "59bd735d748df6cb638d34d8f5ba00ec8732c2dbd08e2e3835dcc3362bf9f74a"
+  },
+  {
+    "source": "Flood decay time/Isaac4.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac4.png",
+    "bytes": 148041,
+    "sha256": "89622d18b18c2e81324769f0fb675edcbcbb3cb83cc819c18109507d387f1cb8"
+  },
+  {
+    "source": "Flood decay time/Isaac5.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac5.png",
+    "bytes": 158604,
+    "sha256": "9004df54dbe6230d4ef026b09accbad40fc2776eb31c5d0c04734e35c5358f46"
+  },
+  {
+    "source": "Flood decay time/Laura1.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Laura/Laura1.png",
+    "bytes": 138347,
+    "sha256": "7b6d3a18588bb1af975475ecd3970195b0cee9f920c6012ba777eb8eb3714491"
+  },
+  {
+    "source": "Flood decay time/Laura4.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Laura/Laura4.png",
+    "bytes": 135918,
+    "sha256": "3898534324c9d541b0416a5d6a118d8d949b59c652943fb8c81eb0971a3e294c"
+  },
+  {
+    "source": "Flood decay time/Laura5.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Laura/Laura5.png",
+    "bytes": 125060,
+    "sha256": "be06697356f9d72d4ef48ee76bbc9d1d85ec6a0ff90b85b991010440e7e3289d"
+  },
+  {
+    "source": "Flood decay time/MLODS-SysEngReport_FinalComplete_Aug2014.pdf",
+    "destination": "Hurricane/Effects/Flood/Regional flood defenses/MLODS-SysEngReport_FinalComplete_Aug2014.pdf",
+    "bytes": 11118035,
+    "sha256": "e41cc885f59fef078c3ec01d275097ddef4f4ed166a533433986f2c9a7e3b1c7"
+  },
+  {
+    "source": "Flood decay time/PMSC_SurgeDynamics_Final_May_12_2016-f1-1.pdf",
+    "destination": "Hurricane/Effects/Flood/Surge and flood studies/PMSC_SurgeDynamics_Final_May_12_2016-f1-1.pdf",
+    "bytes": 6013501,
+    "sha256": "93b47c9ffc42b5b196457579c5b3fc3a6da396be99b45d08be56b6110b777057"
+  },
+  {
+    "source": "Flood decay time/PMSC_SurgeDynamics_Final_May_12_2016-f1.pdf",
+    "destination": "Hurricane/Effects/Flood/Surge and flood studies/PMSC_SurgeDynamics_Final_May_12_2016-f1.pdf",
+    "bytes": 6013501,
+    "sha256": "93b47c9ffc42b5b196457579c5b3fc3a6da396be99b45d08be56b6110b777057"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-02 193218.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-02 193218.png",
+    "bytes": 296998,
+    "sha256": "a3052fdf54535572fa712c6a3d541fa656436ce37866db68749153cdf3962346"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-02 193245.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-02 193245.png",
+    "bytes": 282094,
+    "sha256": "93294368089e4d9ebb30039e8bd61d42a8b7aa3c3e5c362b2579643b8e49cf46"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 133135.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 133135.png",
+    "bytes": 633832,
+    "sha256": "9fe41c5bb50dff4eb2c6093a2a0d6a4470a782d94d3c8d8df38cbc5600799601"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 162933.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 162933.png",
+    "bytes": 133671,
+    "sha256": "255e2bc1ab2fac7e6ed9f98d48de28d28739b9c6d30830f5bee03cd157edb464"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 170515.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 170515.png",
+    "bytes": 138361,
+    "sha256": "bc4b2930c13a14c3b522385b4dbca19a0c15b1abe34077d636650f97f8d86553"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 174056.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 174056.png",
+    "bytes": 212452,
+    "sha256": "5aa8ffdef938665365e7cf9dd4fb20aa24babcc7377ed034f5b11abb1d1fbfd8"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 182654.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 182654.png",
+    "bytes": 150724,
+    "sha256": "a50e67fdcc4f86b5858091480c229518c8f27aadf2163af1a221aee02864a5a6"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 182859.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 182859.png",
+    "bytes": 145031,
+    "sha256": "5b59489538bbab0923182353a1e55aad2a09058990c38511ba0e20743ef4a241"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 183017.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 183017.png",
+    "bytes": 156538,
+    "sha256": "6166ba5a8600eeac204972d6fd217971f0c30dac7b3d8297dbf901ebb58b8504"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 183341.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 183341.png",
+    "bytes": 135924,
+    "sha256": "2e846ede7c99fa19135e02bae1f82e430ca805e5b084ea221db6f497bd321bfc"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 183715.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 183715.png",
+    "bytes": 148059,
+    "sha256": "d7e535ca9637dc43fba985a65f0f7503962073a6586a025ed4d2bdf5c08f7184"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 185630.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 185630.png",
+    "bytes": 133548,
+    "sha256": "75a5c88865cad651520a26c7e30ac881880b05be648d9376bdee088c52f71f55"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 190738.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 190738.png",
+    "bytes": 139259,
+    "sha256": "00e03d06a18f90f2ee13d3f9532c160c48bf4312442e389755f4e40f83c10bc9"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 191126.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 191126.png",
+    "bytes": 141105,
+    "sha256": "8b9b5e4ca68ff16bfead2a366fcb88d18b9bd1b4c7dc4fcacc0efa1ffdac03df"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 192256.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 192256.png",
+    "bytes": 115505,
+    "sha256": "fcd887c93e46d865a42df1510474ef9dac89d95f6e8083edff15de34ebb3ae32"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 192710.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 192710.png",
+    "bytes": 119597,
+    "sha256": "26efbae3c01b788fee7fa41c560dd58c6c51c4c884f94c648e398190320b0091"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 202522.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 202522.png",
+    "bytes": 125060,
+    "sha256": "d458f1ff84a971eb5ea8dd95296fb225d2dc70c8801d45f444ef992ab9252777"
+  },
+  {
+    "source": "Flood decay time/Screenshot 2026-03-18 203055.png",
+    "destination": "Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 203055.png",
+    "bytes": 158604,
+    "sha256": "6a2bb75a69b5b8d9f32d294ad0375c6dba98f827c1e17043101e45820e46535b"
+  },
+  {
+    "source": "Flood decay time/Vol IV The Storm - appendices.pdf",
+    "destination": "Hurricane/Effects/Flood/Surge and flood studies/Vol IV The Storm - appendices.pdf",
+    "bytes": 41865353,
+    "sha256": "7f9fafdb7bf8506830e4830edc2e2951411e3570126a688062964f060d8073a3"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/091224_Francine_5pm-1.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/091224_Francine_5pm-1.pdf",
+    "bytes": 75504,
+    "sha256": "efce198f721b4683b2abda1006b9fa7fc99be858bd88e55b3f4841af7ea916b1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/091224_Francine_5pm.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/091224_Francine_5pm.pdf",
+    "bytes": 75504,
+    "sha256": "efce198f721b4683b2abda1006b9fa7fc99be858bd88e55b3f4841af7ea916b1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/091224_HurricaneFrancine_7am.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/091224_HurricaneFrancine_7am.pdf",
+    "bytes": 83031,
+    "sha256": "50308987d11f962a9fb494dedc069f8e8a945883a5fe521499b4f99783e7fa75"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/091324_HurricaneFrancine_3pm.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/091324_HurricaneFrancine_3pm.pdf",
+    "bytes": 70388,
+    "sha256": "101f19bd109e1ebbaedc38019fbbb187ce7ce50b778b51cc3abf48a9d62ec340"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/1435970.pdf",
+    "destination": "Substation/Hardware/Transformers/1435970.pdf",
+    "bytes": 1207208,
+    "sha256": "f319f3d5dbdc55fee4f33757e5a0c925c60e055dd27ec12c7c34658bf9cb0b5d"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2012gmd.pdf",
+    "destination": "Grid reliability/Geomagnetic disturbances/2012gmd.pdf",
+    "bytes": 5485136,
+    "sha256": "2690c673278ed26ea03407b25cdf204693f5ebd1966973c6313a35855c62a785"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2019-06_eop-011-2_clean_04022021.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/2019-06_eop-011-2_clean_04022021.pdf",
+    "bytes": 316871,
+    "sha256": "0d5b3eb04c5d7fd6db267dc5b840d384b183a577338d8aae2a2103d99a546e35"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2021-07-final-ballot_eop-012-1_clean.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/2021-07-final-ballot_eop-012-1_clean.pdf",
+    "bytes": 788188,
+    "sha256": "e227cf4a08e658bb74a5024ac201d4e97733575ab57b20ed2bf09cfa76dce0b0"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2022-08-17-ny-ju-upgrade-cost-matrix-combined.xlsx",
+    "destination": "Substation/Cost estimation/2022-08-17-ny-ju-upgrade-cost-matrix-combined.xlsx",
+    "bytes": 24639,
+    "sha256": "f19b6ab4d60655f89b54df6ed0e63775e2c701c459939b62ef28287f162dbc91"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2024-2026-serc_regional_risk_report_final.pdf",
+    "destination": "Grid reliability/Assessments and metrics/2024-2026-serc_regional_risk_report_final.pdf",
+    "bytes": 6536018,
+    "sha256": "6484a2553c51cb4fb1584ac63e595c162978c63a6293044447ef94598ea28d6b"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2024-ltra_corrected_july_2025.pdf",
+    "destination": "Grid reliability/Assessments and metrics/2024-ltra_corrected_july_2025.pdf",
+    "bytes": 6247647,
+    "sha256": "18e7f560095c02c6f75c4bb0a51a1074c8d85d164b7b035f5c885ffb3102abf9"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/20240501 PSC Item 04 MISO Transmission Cost Estimation Guide for MTEP24632680.pdf",
+    "destination": "Substation/Cost estimation/20240501 PSC Item 04 MISO Transmission Cost Estimation Guide for MTEP24632680.pdf",
+    "bytes": 1424167,
+    "sha256": "708b0103f8ea2ff458a09aa46334a537817a833814c8300a04fd07e4a74de167"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2025_conventional_gads_training_module_11_factors_and_rates.pdf",
+    "destination": "Grid reliability/Assessments and metrics/2025_conventional_gads_training_module_11_factors_and_rates.pdf",
+    "bytes": 421642,
+    "sha256": "84c4a40411dc4f4fdff028a9d7d3070bb609cf07d03a87f92b01828ad684f509"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/2026-Bulletin-Deadlines-Outside-Deadlines.pdf",
+    "destination": "Reference administration/Publication schedules/2026-Bulletin-Deadlines-Outside-Deadlines.pdf",
+    "bytes": 47869,
+    "sha256": "74a355c407bf6d9b906903e625959ac0b983c52681ba8c85025b11bcc383c805"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/3002012977_Emergency Management Guidelines Update_ Emergency Manual for Plant Operations-1.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/3002012977_Emergency Management Guidelines Update_ Emergency Manual for Plant Operations-1.pdf",
+    "bytes": 1751566,
+    "sha256": "1827afc514886d3c6a6adfb1c32a0218aa37172582115eeee2ba8fe835c0d117"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/3002012977_Emergency Management Guidelines Update_ Emergency Manual for Plant Operations.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/3002012977_Emergency Management Guidelines Update_ Emergency Manual for Plant Operations.pdf",
+    "bytes": 1751567,
+    "sha256": "171d888871a66d52bd75ececb3eccc328e9396da88e3c34f571a2d0ea38c0a24"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Average monthly billls per sector 2020/table_5A.pdf",
+    "destination": "Load/Residential/Bills 2024/table_5A.pdf",
+    "bytes": 127159,
+    "sha256": "70d84ae4443a5277b44dc161b2a85e5d7f909004fe5f0557cde1f00ecdedc9fc"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Average monthly billls per sector 2020/table_5B.pdf",
+    "destination": "Load/Commercial/Bills 2024/table_5B.pdf",
+    "bytes": 126874,
+    "sha256": "b49e509b77c1f083732125123c084d472b9bde4583c569becf41acc859ebd7ad"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Average monthly billls per sector 2020/table_5C.pdf",
+    "destination": "Load/Industrial/Bills 2024/table_5C.pdf",
+    "bytes": 126979,
+    "sha256": "a41b248a0183ee9ff9d6797ec725bc44e08473dddf3a7d2f38c5f0b407482de1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/BOLD-230-kV-Specifications.pdf",
+    "destination": "Transmission/Design and ratings/BOLD-230-kV-Specifications.pdf",
+    "bytes": 704963,
+    "sha256": "19c84437a005ffa93392ac51b04b42af4784f5a02ac925d4a7c184d2fc6f15a1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ce1.1.st.pdf",
+    "destination": "Load/Residential/Consumption and costs/ce1.1.st.pdf",
+    "bytes": 266757,
+    "sha256": "5ba5b24fa699e7bb6ca8822fafd87b8d5adc61f820148293ea2f2d6fd50beb58"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ce4.11.el.st.pdf",
+    "destination": "Load/Residential/Consumption and costs/ce4.11.el.st.pdf",
+    "bytes": 270513,
+    "sha256": "e2f80e4bf8d7f92138dfb7134d7cb04ff99c9c3a36e90c4eb0afde2d699622f1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ce4.16.el.st-1.pdf",
+    "destination": "Load/Residential/Consumption and costs/ce4.16.el.st-1.pdf",
+    "bytes": 250436,
+    "sha256": "eabb6f7de42fc5ca011e547d55d815cdbf33fd2c23f21fcc1b1a866d3aea3ae3"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ce4.16.el.st.pdf",
+    "destination": "Load/Residential/Consumption and costs/ce4.16.el.st.pdf",
+    "bytes": 250436,
+    "sha256": "eabb6f7de42fc5ca011e547d55d815cdbf33fd2c23f21fcc1b1a866d3aea3ae3"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ce4.6.el.st.pdf",
+    "destination": "Load/Residential/Consumption and costs/ce4.6.el.st.pdf",
+    "bytes": 323328,
+    "sha256": "44d37078b62d6531f248e4d512ca95b6aca11311721f8b61d215dc33d7325b0b"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/cip-014-3.pdf",
+    "destination": "Substation/Physical security/cip-014-3.pdf",
+    "bytes": 419183,
+    "sha256": "7a52842db2df75c679af5edcad0a32ec4ded14c21a4a48402535c5a1f884d1bf"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Cleco-Press-Release-Severe-Winter-Weather.pdf",
+    "destination": "Grid reliability/Other severe weather effects/Cleco-Press-Release-Severe-Winter-Weather.pdf",
+    "bytes": 400883,
+    "sha256": "b65422644ab2cd2a5e776dd53683a823e7a8d661c4a89051c194ee9fc054dc0f"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Daelim-Product-catalog.pdf",
+    "destination": "Substation/Hardware/Transformers/Daelim-Product-catalog.pdf",
+    "bytes": 1927417,
+    "sha256": "19de944c59ed9928cfd9db3cf2b9af84b1e88aac8a36fced289ae161ae9cfb54"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/DEMCO-Activates-ERP_Full-Workforce-and-Additional-Resources-Staged.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/DEMCO-Activates-ERP_Full-Workforce-and-Additional-Resources-Staged.pdf",
+    "bytes": 88476,
+    "sha256": "009cb1002d71b7528b9dae0aacacff107dd1268daba3155b5b92615c49b8d961"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/DEMCO-Restoration-Update-9-14.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/DEMCO-Restoration-Update-9-14.pdf",
+    "bytes": 334869,
+    "sha256": "67ba448a056cf9139d99ad0e3ca72a96cf472d9efda5eed5abe4647a43efe7c1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ELA-Power-Delivery-Performance_Weather-Impact-0731-Event.pdf",
+    "destination": "Grid reliability/Other severe weather effects/ELA-Power-Delivery-Performance_Weather-Impact-0731-Event.pdf",
+    "bytes": 2720757,
+    "sha256": "d9d30d332ac94cebe82fa0209e902e6fcc4a07ae0e0944dafbe77f79d35f374c"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/electric_cov_map_large2022_b.jpg",
+    "destination": "GIS/Utility service areas/electric_cov_map_large2022_b.jpg",
+    "bytes": 1192781,
+    "sha256": "44e8a5967e61ffb6690711dbe9f5130fa8963faef5cd0e8072085348ec2fd015"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/electriccooperativesannualreport.pdf",
+    "destination": "ENS/Utility financial data/Reporting forms/electriccooperativesannualreport.pdf",
+    "bytes": 21090,
+    "sha256": "513d2533bf2d71f6f5b789b6eec374f0e1d4e348334c943c420cb4b27b8ce69d"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/EnergyProject_Capacity_of_Transmission_Lines.pdf",
+    "destination": "Transmission/Design and ratings/EnergyProject_Capacity_of_Transmission_Lines.pdf",
+    "bytes": 283131,
+    "sha256": "252c88e6147872a45a03a832fc5d1834b93b2e9e27a2f2310b54469c462d82f5"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Entergy-March-2022-Severe-Weather-Response.pdf",
+    "destination": "Grid reliability/Other severe weather effects/Entergy-March-2022-Severe-Weather-Response.pdf",
+    "bytes": 131080,
+    "sha256": "cc89fe4d6cb74150007841b9833fe0e4aee0bac92b5a72bdf78ea40b2031cef2"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Entergy-News-Release-Hurricane-Ida-Update-Final-09-21-21.pdf",
+    "destination": "Hurricane/Effects/Power outages and restoration/Entergy-News-Release-Hurricane-Ida-Update-Final-09-21-21.pdf",
+    "bytes": 152593,
+    "sha256": "3998d4e38b5178ed950ebc7a547e7fba64c3c2b2210072d487b935940eca281a"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Entergy-Press-Release-Extreme-Weather.pdf",
+    "destination": "Grid reliability/Other severe weather effects/Entergy-Press-Release-Extreme-Weather.pdf",
+    "bytes": 153187,
+    "sha256": "f8d9880829ec031dd699f6659e3a8161449bb470236a06c115d86e6b9aa6e723"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Entergy_load_shed.pdf",
+    "destination": "Grid reliability/Load shedding/Entergy_load_shed.pdf",
+    "bytes": 783419,
+    "sha256": "25f0e56da88c33d57fc4ec2b41e40bc5c1b1d11eaf3d7133ce53b271adfc531e"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ESFI-Submerged-Equipment-2025.pdf",
+    "destination": "Substation/Flood countermeasures/ESFI-Submerged-Equipment-2025.pdf",
+    "bytes": 2597092,
+    "sha256": "509b12329b6db92a0a6f4174ad10dc0997463588b3883a263e8a72a43df9905b"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Fact Sheet-Grid Resilience.pdf",
+    "destination": "Grid reliability/Assessments and metrics/Fact Sheet-Grid Resilience.pdf",
+    "bytes": 711685,
+    "sha256": "51f349c250f477121c60b93e68e80a28e8ee0c91e2ba7b34829f8f2db53cbe00"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/fema_p-348_protecting_building_utility_systems_from_flood_damage_2017.pdf",
+    "destination": "Substation/Flood countermeasures/fema_p-348_protecting_building_utility_systems_from_flood_damage_2017.pdf",
+    "bytes": 39307664,
+    "sha256": "93f27e56f9a4d22a9fe8f38f54af9e7a4056d47801977c51258e6e0f1230ba96"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ivgtf2-4.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/ivgtf2-4.pdf",
+    "bytes": 2278832,
+    "sha256": "0f35d27a25d910bf92891b82b36573b8951ab8d9f42f6a8a6767a0cff6384ac0"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/JDEC-January-BE-Presentation-1-18-23.pdf",
+    "destination": "Substation/Resilience and hardening/JDEC-January-BE-Presentation-1-18-23.pdf",
+    "bytes": 362207,
+    "sha256": "23b623b52781c991126bc55ba154c2855b2964c1c3acc385d48d65194cf55c95"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ll20141202_bus_differential_power_supply_failure.pdf",
+    "destination": "Substation/Hardware/Protection and failures/ll20141202_bus_differential_power_supply_failure.pdf",
+    "bytes": 694510,
+    "sha256": "a0bdd4370186881b4ec097d3218b9ef254bec058ca2e6ff3234757eb5b85509c"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/ll20150402_severe_flooding_damages_transformer_substations_final.pdf",
+    "destination": "Substation/Flood countermeasures/ll20150402_severe_flooding_damages_transformer_substations_final.pdf",
+    "bytes": 480804,
+    "sha256": "08bac0eae713bac1d632d6b4d4aa0889093ce7a72316a21fc7d1b0cae78fa998"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/location-plan-export-tutorial-ArcGIS.pdf",
+    "destination": "GIS/Documentation/location-plan-export-tutorial-ArcGIS.pdf",
+    "bytes": 2712251,
+    "sha256": "d87873f319a0b339d498afcf0d7b74998edf3a64405ed356b31f7382929dbee9"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/m-11_energy_emergency_alerts.pdf",
+    "destination": "Grid reliability/Assessments and metrics/m-11_energy_emergency_alerts.pdf",
+    "bytes": 167764,
+    "sha256": "6e0482dd01bda86b67d58bdfb3a3985a66d15b90f4c1dc8de25397a9658e29e5"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/m-14_automatic_ac_transmission_outages_initiated_by_failed_ac_substation_equipment.pdf",
+    "destination": "Grid reliability/Assessments and metrics/m-14_automatic_ac_transmission_outages_initiated_by_failed_ac_substation_equipment.pdf",
+    "bytes": 162180,
+    "sha256": "a12f084bbb74afc7fdfa03d5e2392207dec584cdb8f716ae9d63d0630586cda1"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/m-6_disturbance_control_standard_failures.pdf",
+    "destination": "Grid reliability/Assessments and metrics/m-6_disturbance_control_standard_failures.pdf",
+    "bytes": 178802,
+    "sha256": "ce35c2e20fa637c8b393a7f7f39e13a9770eaeed9246379eb77b2dbda1a3f8c6"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/m-7_disturbance_control_events_greater_than_most_severe_single_contingency_mssc.pdf",
+    "destination": "Grid reliability/Assessments and metrics/m-7_disturbance_control_events_greater_than_most_severe_single_contingency_mssc.pdf",
+    "bytes": 176577,
+    "sha256": "df0529a890a1b0cc2abadb88227a514381ae5f447f71a888e4e686f554562aa8"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/MISO Transmission Cost Estimate Workbook for MTEP25547535(1).xlsx",
+    "destination": "Substation/Cost estimation/MISO Transmission Cost Estimate Workbook for MTEP25547535(1).xlsx",
+    "bytes": 90811,
+    "sha256": "785d56321adfed151b047819f6e95500020b3b7b25dd3a11ddffe56460ddb977"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/MISO Transmission Cost Estimation Guide for MTEP25337433-1.pdf",
+    "destination": "Substation/Cost estimation/MISO Transmission Cost Estimation Guide for MTEP25337433-1.pdf",
+    "bytes": 1501614,
+    "sha256": "b123b5e5e78a2dc860399ca7fc4c78d89ccbd476ce93cbf66fb43f7536e07c5d"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Miso_load_shed.pdf",
+    "destination": "Grid reliability/Load shedding/Miso_load_shed.pdf",
+    "bytes": 1694053,
+    "sha256": "98f7c72fed4432dadd6854de6d2258bf6e0ab170373b47edf4764ed84a1a3a57"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/NEMA-GD-1-2016-Evaluating-Water-Damaged-Electrical-Equipment-Guide.pdf",
+    "destination": "Substation/Flood countermeasures/NEMA-GD-1-2016-Evaluating-Water-Damaged-Electrical-Equipment-Guide.pdf",
+    "bytes": 1542075,
+    "sha256": "b62d3a1d54c277957a404382cb48cb542d740d5c8b58c2529dc82a983fcfc428"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/nema-gd-1-2019-evaluating-water-damaged-electrical-equipment-guide_2026-01-29.pdf",
+    "destination": "Substation/Flood countermeasures/nema-gd-1-2019-evaluating-water-damaged-electrical-equipment-guide_2026-01-29.pdf",
+    "bytes": 1611860,
+    "sha256": "81980ee3680742c6de61dd27c373de55eecf383d6ff8c9ab11e986831c9157da"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/nerc_sra_2024.pdf",
+    "destination": "Grid reliability/Assessments and metrics/nerc_sra_2024.pdf",
+    "bytes": 4260551,
+    "sha256": "ab975320b451dfa8f05e778ff0d4974cb4b2a6e1173216a6224c7438bb2928c5"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/puct-weatherization-summary---oct-20-2022.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/puct-weatherization-summary---oct-20-2022.pdf",
+    "bytes": 705092,
+    "sha256": "a5519e728ee4eb00b4d1064983097a93c5c556a1cf70089c563c4ed0d9d2596a"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/risc-resilience-report_approved_risc_committee_november_8_2018_board_accepted.pdf",
+    "destination": "Grid reliability/Assessments and metrics/risc-resilience-report_approved_risc_committee_november_8_2018_board_accepted.pdf",
+    "bytes": 884965,
+    "sha256": "0dc1d403aa323da7cad2e6bfcb6cc71f18f4b6a4938b6f1773cf37559f7b5448"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/rscompleteset.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/rscompleteset.pdf",
+    "bytes": 13889204,
+    "sha256": "f160b7bdf664dda0db1a04955cc3d2ee191c67ffec2e628aa737be57d597115d"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/toOmer.pdf",
+    "destination": "Models/Infrastructure interdependencies/toOmer.pdf",
+    "bytes": 3221527,
+    "sha256": "1a7121c0ebb100fdf6cbd38b8c0f7f5fb839e4ff958976315b8deb73a698aeb6"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/tpl-001-5.1.pdf",
+    "destination": "Grid reliability/Standards and emergency preparedness/tpl-001-5.1.pdf",
+    "bytes": 401213,
+    "sha256": "f4aad8f267deb77264412caeae3e91a2119614cbb1ca618e8f5733936fb25473"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/tran-line-ratings.pdf",
+    "destination": "Transmission/Design and ratings/tran-line-ratings.pdf",
+    "bytes": 787060,
+    "sha256": "0d278d727cc10e8cee455ef51963d691acd5c67fbe88aae2a10b58b3a49fe357"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/Transmission-and-Substation-Project-Cost-Estimation-Guide-for-MTEP-2018144804.pdf",
+    "destination": "Substation/Cost estimation/Transmission-and-Substation-Project-Cost-Estimation-Guide-for-MTEP-2018144804.pdf",
+    "bytes": 1063141,
+    "sha256": "0a89f559966902b9c31e9855e14788b225bb1d40b5a8fadde55be2e3e5b57842"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/UEP_Bulletin_1724E-200.pdf",
+    "destination": "Transmission/Design and ratings/UEP_Bulletin_1724E-200.pdf",
+    "bytes": 12204346,
+    "sha256": "c67e3d7a6e16b61764d8efe5847ae23bb9938c35b8c1243d410fed3c716be933"
+  },
+  {
+    "source": "Power costs and usage and substation cost estimation/UEP_Bulletin_1724E-300.pdf",
+    "destination": "Substation/Layout/UEP_Bulletin_1724E-300.pdf",
+    "bytes": 10318065,
+    "sha256": "c2baf3c8c1e45ec918d10ea1eb4e7f16dfd14858ea7b5d195839fc1b26bf095c"
+  },
+  {
+    "source": "Other models/1-s2.0-S2352467724002121-main.pdf",
+    "destination": "Models/Synthetic grids/Distribution/1-s2.0-S2352467724002121-main.pdf",
+    "bytes": 4166461,
+    "sha256": "8c5e09d4fb4562fe343f1459c6c8745ef0fe7a9cd2cd0ca0ca9a5d47132678e2"
+  },
+  {
+    "source": "Other models/A_methodology_for_the_creation_of_geographically_realistic_synthetic_power_flow_models.pdf",
+    "destination": "Models/Synthetic grids/Transmission/A_methodology_for_the_creation_of_geographically_realistic_synthetic_power_flow_models.pdf",
+    "bytes": 466322,
+    "sha256": "510709d5f05c104e2987310963c5b7f5cdbd3c8012be7b9f4c72bb8c72ec93c9"
+  },
+  {
+    "source": "Other models/asiamah_ji_watson_molzahn-hicss2026.pdf",
+    "destination": "Models/Synthetic grids/Transmission/asiamah_ji_watson_molzahn-hicss2026.pdf",
+    "bytes": 1299117,
+    "sha256": "4b3171d0a3bb17771e9d2ceb5788c59c1cdc16bdfa14df0c9468a967b13a78d7"
+  },
+  {
+    "source": "Other models/asiamah_manoj_ji_williams_molzahn-ghana_peci2025.pdf",
+    "destination": "Models/Synthetic grids/Transmission/asiamah_manoj_ji_williams_molzahn-ghana_peci2025.pdf",
+    "bytes": 3908700,
+    "sha256": "4b09b3892bf49a3d17f1c0b83bd0a05b7b79da5734d0a8235acbfc32a9a0f2f3"
+  },
+  {
+    "source": "Other models/Building_Large-Scale_U.S._Synthetic_Electric_Distribution_System_Models.pdf",
+    "destination": "Models/Synthetic grids/Distribution/Building_Large-Scale_U.S._Synthetic_Electric_Distribution_System_Models.pdf",
+    "bytes": 4972414,
+    "sha256": "632e065dcd54ae1dace862368db8833ad6de807654dc1f94199874afb6cfadd0"
+  },
+  {
+    "source": "Other models/California_Test_System_CATS_A_Geographically_Accurate_Test_System_Based_on_the_California_Grid.pdf",
+    "destination": "Models/Synthetic grids/Transmission/California_Test_System_CATS_A_Geographically_Accurate_Test_System_Based_on_the_California_Grid.pdf",
+    "bytes": 3268054,
+    "sha256": "086b51a7f579e9d6f3f02448b9bbd8ddc3b5219c62f8d771a4226ab8460f6c00"
+  },
+  {
+    "source": "Other models/energies-10-01233.pdf",
+    "destination": "Models/Synthetic grids/Validation/energies-10-01233.pdf",
+    "bytes": 4123651,
+    "sha256": "dfc56f5c7a245c1a73100399227a52f13ac6f56ed770d3d7ec6a5c7ec183a5e6"
+  },
+  {
+    "source": "Other models/Grid_Structural_Characteristics_as_Validation_Criteria_for_Synthetic_Networks.pdf",
+    "destination": "Models/Synthetic grids/Validation/Grid_Structural_Characteristics_as_Validation_Criteria_for_Synthetic_Networks.pdf",
+    "bytes": 497479,
+    "sha256": "708042236a407d328aa62d1a25b6be27dfbea00d59a4568e6317b7ea5db64e4f"
+  },
+  {
+    "source": "Other models/GridTracer_Automatic_Mapping_of_Power_Grids_Using_Deep_Learning_and_Overhead_Imagery.pdf",
+    "destination": "Models/Grid mapping/GridTracer_Automatic_Mapping_of_Power_Grids_Using_Deep_Learning_and_Overhead_Imagery.pdf",
+    "bytes": 4107654,
+    "sha256": "2f509df25068867274bf9d4d9bc849dbd20c6d8c3e75cd35f8dd390c62c58f35"
+  },
+  {
+    "source": "Other models/harris_banerjee_molzahn-ukraine.pdf",
+    "destination": "Models/Synthetic grids/Transmission/harris_banerjee_molzahn-ukraine.pdf",
+    "bytes": 1364783,
+    "sha256": "5e86162f517becd3be5b021d05634e17194a44d73768747879e09902305e24ac"
+  },
+  {
+    "source": "Other models/HICSS_PowerFlowWeather_WithReviewerChangesFinal_WithFooter.pdf",
+    "destination": "Models/Weather and power flow/HICSS_PowerFlowWeather_WithReviewerChangesFinal_WithFooter.pdf",
+    "bytes": 3364647,
+    "sha256": "20e76dcc17e7da377bd1be7de6dfdfda272e94c1a7567d465714f3d3d789b68b"
+  },
+  {
+    "source": "Other models/Load_modeling_in_synthetic_electric_grids.pdf",
+    "destination": "Load/Modeling/Load_modeling_in_synthetic_electric_grids.pdf",
+    "bytes": 647770,
+    "sha256": "c3cc24bcdf78da411db006432d413e36f4b6d82d8c6eac13500d601f07048556"
+  },
+  {
+    "source": "Other models/Overbye PSERC Webinar Mar 15 2016 Announcement.pdf",
+    "destination": "Models/Synthetic grids/Transmission/Overbye PSERC Webinar Mar 15 2016 Announcement.pdf",
+    "bytes": 22024,
+    "sha256": "50e2231e7851c06ee91eb9495508e680cdb2ab0127efd1e03d25d36f7a9d1802"
+  },
+  {
+    "source": "Other models/paper0350.pdf",
+    "destination": "Models/Synthetic grids/Transmission/paper0350.pdf",
+    "bytes": 1063846,
+    "sha256": "6f95f8505090260c0fa965093e27b74606a607b33ca369755454487692c387a7"
+  },
+  {
+    "source": "Other models/paper0386.pdf",
+    "destination": "Models/Synthetic grids/Transmission/paper0386.pdf",
+    "bytes": 1340476,
+    "sha256": "6ef7ba5d16313a9a1eb39286f88fe052946cc809e8855887f089dcbc54fd13e7"
+  },
+  {
+    "source": "Other models/Readme.pdf",
+    "destination": "Models/Synthetic grids/Distribution/Readme.pdf",
+    "bytes": 10512830,
+    "sha256": "1e33811a70cf7aafc6f5d1775590925e46ff03fc9546f6cc42285a6e9c5d06f2"
+  },
+  {
+    "source": "Other models/Statistical_Considerations_in_the_Creation_of_Realistic_Synthetic_Power_Grids_for_Geomagnetic_Disturbance_Studies.pdf",
+    "destination": "Models/Synthetic grids/Transmission/Statistical_Considerations_in_the_Creation_of_Realistic_Synthetic_Power_Grids_for_Geomagnetic_Disturbance_Studies.pdf",
+    "bytes": 637577,
+    "sha256": "7d6615358336723d62113403d6ae432fef885eebefeece8b60ff578db0562151"
+  },
+  {
+    "source": "Other models/TPEC__PWW.pdf",
+    "destination": "Models/Weather and power flow/TPEC__PWW.pdf",
+    "bytes": 9263879,
+    "sha256": "f782628f5e9d4883e3f405b60790da239a2cc4049c1ec1ba71023bd859b1222d"
+  },
+  {
+    "source": "Other models/Trpovski_SyntheticDistributionGrid_2018.pdf",
+    "destination": "Models/Synthetic grids/Distribution/Trpovski_SyntheticDistributionGrid_2018.pdf",
+    "bytes": 344275,
+    "sha256": "e6f459bc2b1317b5b0178a65f88ad449224e010ff2d8b212757335d4f23e292f"
+  },
+  {
+    "source": "ENS costs and estimation/90927-market-based-estimation-of-average-electricity-outage-costs-in-the-united-states.pdf",
+    "destination": "ENS/Outage cost estimation/90927-market-based-estimation-of-average-electricity-outage-costs-in-the-united-states.pdf",
+    "bytes": 371544,
+    "sha256": "b70aec32df7cdb22bd9add59152ef95c2bd9eddb7a8d7c06a5d618a43d3315f0"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/83819.pdf",
+    "destination": "Load/Commercial/ComStock/83819.pdf",
+    "bytes": 21367935,
+    "sha256": "4ca7e61adbe1c1c028fc8bf735a9262490ecfc251cf8b8c3fb733780703a4672"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/b6.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/b6.pdf",
+    "bytes": 1864621,
+    "sha256": "352d0da8638b5bf9405becb4c82aab3876ffb9a43412535f9752d39fd01341e9"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/b7.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/b7.pdf",
+    "bytes": 1882957,
+    "sha256": "bc331cea998f55e17034f49c479e27542f0c1cceda67b86cf4d1e1739b6d015d"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/bp_electricity_intensity_by_comstock_building_type.jpg",
+    "destination": "Load/Commercial/ComStock/bp_electricity_intensity_by_comstock_building_type.jpg",
+    "bytes": 66178,
+    "sha256": "a8df083a0aeff9c9da1143d003ef250eb4bea93264ed502243e627fae767827f"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/bp_electricity_intensity_by_comstock_building_type_checklist.jpg",
+    "destination": "Load/Commercial/ComStock/bp_electricity_intensity_by_comstock_building_type_checklist.jpg",
+    "bytes": 304794,
+    "sha256": "99b49bb5430f13b0389f2373c9097a374b763ca3884e6022bc9c7cee649286d4"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/c22.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/c22.pdf",
+    "bytes": 836662,
+    "sha256": "1769d7cce92817782cd94e7233ad4df976be98f053e39e32c8accbbf61b87282"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/CBECS 2018 CE Release 2 Flipbook.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/CBECS 2018 CE Release 2 Flipbook.pdf",
+    "bytes": 983754,
+    "sha256": "411b14c154682a72610a172e04fa9a710a784e2caaf499bc04fe53fce5fb551d"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/CBECS energy sources.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/CBECS energy sources.pdf",
+    "bytes": 147024,
+    "sha256": "91ae270d946686b08ce0b19b91a5dec7bbaf78c2cae89fe3961b04a1e50563be"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/CBECS key energy stats.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/CBECS key energy stats.pdf",
+    "bytes": 1047902,
+    "sha256": "c9403a411bdc52c36e0853e76ac3920d70cd09181b6c13002bb3ad431107ef72"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/electricity_by_comstock_building_type.jpg",
+    "destination": "Load/Commercial/ComStock/electricity_by_comstock_building_type.jpg",
+    "bytes": 55107,
+    "sha256": "9ed963b2b68d7088490152e52764b7d3f1cd180e342514075bfaa2625eb0b21b"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/README-1.pdf",
+    "destination": "Load/Commercial/ComStock/README-1.pdf",
+    "bytes": 227572,
+    "sha256": "0ae2a91488eb30156e510e2ba620efac76e942c6b52e7f8645a57acf97677b31"
+  },
+  {
+    "source": "ENS costs and estimation/Building type power consumption/US National Median Table-1.pdf",
+    "destination": "Load/Commercial/Building consumption benchmarks/US National Median Table-1.pdf",
+    "bytes": 755118,
+    "sha256": "5e5dfab808000ba27425ce02afac49cf18ffd6686ba518ee524ecb320029870a"
+  },
+  {
+    "source": "ENS costs and estimation/CostofUnservedEnergy_Wattnow.pdf",
+    "destination": "ENS/Outage cost estimation/CostofUnservedEnergy_Wattnow.pdf",
+    "bytes": 245436,
+    "sha256": "92b8be526b86ae5a7461ff11e3db50bed09583a0827354b05e932400d4574205"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/.~lock.F1_1.DBF#",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/.~lock.F1_1.DBF#",
+    "bytes": 105,
+    "sha256": "96e9dc9d24c26291199fc78ee563707a2ea6d33971f4a8df470d605119c017a8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/.~lock.F1_2.DBF#",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/.~lock.F1_2.DBF#",
+    "bytes": 105,
+    "sha256": "96e9dc9d24c26291199fc78ee563707a2ea6d33971f4a8df470d605119c017a8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_1.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_1.CDX",
+    "bytes": 5120,
+    "sha256": "d41429f392e5b4b4e732fc842647c4c694b87038a9a929d58a93773418e3feea"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_1.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_1.DBF",
+    "bytes": 72111,
+    "sha256": "261bf5e38e1fff5808789fa9f3f079936dd28cd130946bbed13c5a46833864d1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_10.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_10.CDX",
+    "bytes": 25600,
+    "sha256": "93c153abf8980559fad61495413485b1aa0fa819c5c38abc00647756d0fd6e1b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_10.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_10.DBF",
+    "bytes": 1561547,
+    "sha256": "b53b804b96720024c29dd86f91920041ed19f81c674fdf57fefbafa24e04d995"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_106_2009.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_106_2009.CDX",
+    "bytes": 76800,
+    "sha256": "5b42159fe11f40b1ff90dee8e053de7bc6f4a867a159c7fbbffa5213171e33b1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_106_2009.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_106_2009.DBF",
+    "bytes": 487630,
+    "sha256": "ffd12c894e5bc93931ea9e2364e7209a5b99d15c2aef73a9bcaec968c09c044a"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_106a_2009.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_106a_2009.CDX",
+    "bytes": 32256,
+    "sha256": "60f9a05be7c56c6d37bb91bdca74cee19e7f4bd5d21c6a818945556e1f35549b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_106A_2009.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_106A_2009.DBF",
+    "bytes": 232268,
+    "sha256": "540cd12d24ba1e8158df8296a8c0d9c5af64d8489cda45093f639d3c80ff4376"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_106b_2009.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_106b_2009.CDX",
+    "bytes": 23040,
+    "sha256": "6a9f3d3adf2b2a76ab071e6da58b0a43410966ef07f9f387864be21e999f62e8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_106B_2009.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_106B_2009.DBF",
+    "bytes": 123953,
+    "sha256": "09fe8a4fedb80a2f165421b071677eed59da34a8b2e12ba27d9b597bfb413430"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_11.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_11.CDX",
+    "bytes": 495616,
+    "sha256": "fea0a08aa35666118f61ac624eeb8f74021ef7d406a0abacfc2a4327c0561035"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_11.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_11.DBF",
+    "bytes": 2765785,
+    "sha256": "4b1b7e9fd2f84aa122b2a8798da90cba9457d9a4d1317a83e1a907aa69a5d99c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_12.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_12.CDX",
+    "bytes": 26624,
+    "sha256": "ca07b77f09adc2b483b0b7dfd592ea2fe32474247af0bb3d1ff4bc933b422251"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_12.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_12.DBF",
+    "bytes": 209606,
+    "sha256": "d5825d86d0738f92d564f90fa548098ee08091c78b2a653cd08c0081500266fa"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_13.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_13.CDX",
+    "bytes": 1230336,
+    "sha256": "b66450bc77acd064db24b6da7e60745fb93f23127975f270e897e4a8db9b5221"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_13.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_13.DBF",
+    "bytes": 10052629,
+    "sha256": "99464cf67542da850de28c0d5d99227174e1ac9bda80e9e9fcca8615352aa399"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_14.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_14.CDX",
+    "bytes": 11264,
+    "sha256": "851294b858552efd61fbf8300b320b1d6f3eff45d41c1bf9aef5558fa290d312"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_14.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_14.DBF",
+    "bytes": 2647,
+    "sha256": "72698ff215df9fa8d847e307812eb2cd453610f0bb7ce3e81795b7fc1e364d98"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_14.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_14.FPT",
+    "bytes": 201984,
+    "sha256": "9ae7077a467abc5b22c78effd34158003d1dc1121f4333d2e3e825614aeb99ea"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_15.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_15.CDX",
+    "bytes": 535552,
+    "sha256": "6fcdc30ffec9c0ca95aff352acd5e823f3917732de00c19b6193cbd863fa04da"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_15.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_15.DBF",
+    "bytes": 2990593,
+    "sha256": "5f5b3046782523342cf16588da150a535cafa8a8d09f164130d8553c88b4c553"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_16.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_16.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_16.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_16.DBF",
+    "bytes": 680,
+    "sha256": "bef374915367c8064e5063930de4aa2038eaf7bd1074e7cad0b13ed67f29ab02"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_17.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_17.CDX",
+    "bytes": 18432,
+    "sha256": "f456bddd0c8e540f485c5dd2751a0a6fa949e4192f257a4f9ee3e81a4a8270e1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_17.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_17.DBF",
+    "bytes": 7792,
+    "sha256": "872e94550de1614ebeffe0ce2d04d7d8c933e4b084c8a258d1b83e5bc9825c64"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_17.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_17.FPT",
+    "bytes": 80960,
+    "sha256": "5e8f9d6cdc7f2feb02764de1499ca6deea7de370fdb8e35917243bb1ef943bb7"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_18.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_18.CDX",
+    "bytes": 60928,
+    "sha256": "bcd3e1db9eaab85bf52fa438d4d354d6e72bbff2e387e75a8d2f3f0c8f648d34"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_18.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_18.DBF",
+    "bytes": 411070,
+    "sha256": "a3c737a2290bbf23b9d057677319c51e0c4332bd999c0a1bfe8f949776f28124"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_19.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_19.CDX",
+    "bytes": 14336,
+    "sha256": "8a42b4c67ded8fc7c2df927cd465ca287613d9ed07b0b64c037fb9bb091b321a"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_19.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_19.DBF",
+    "bytes": 31049,
+    "sha256": "7fb6e72491c92be3314ebffd9610c16225584fef1e98510121de1df147aba16f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_2.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_2.CDX",
+    "bytes": 12800,
+    "sha256": "a4fa32f86e2b262e3f3c75b1d64a6ea3641731f748e645189de04dc5949167f9"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_2.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_2.DBF",
+    "bytes": 4257,
+    "sha256": "34a849519e12363986ba386fba82f606bfea5f9f9b8bf2a84e147060082fd5e4"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_2.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_2.FPT",
+    "bytes": 40384,
+    "sha256": "fb85044b24be2266da82712030f95ce926554e1462e8f37a8a7b431f3d745101"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_20.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_20.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_20.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_20.DBF",
+    "bytes": 744,
+    "sha256": "7efeda457c42b3e44ce5d07054653d662d29a5f71dc2b823f5e8e709f0168092"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_208_elc_dep.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_208_elc_dep.CDX",
+    "bytes": 87552,
+    "sha256": "d7d9018f5cac322d264e9e0b7e669a6c20a5c69b24517499f61498baa497453d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_208_ELC_DEP.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_208_ELC_DEP.DBF",
+    "bytes": 251669,
+    "sha256": "8d9df17b4f5ce9e169dd7ad1132e686c4652fa610265837a7320250ee7b39355"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_21.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_21.CDX",
+    "bytes": 36864,
+    "sha256": "c2288834507674e44924cdb1b3a3736c9c9b8b083e7f843a173892e1eb948d5b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_21.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_21.DBF",
+    "bytes": 163299,
+    "sha256": "1033e097dbaab641af7fbf96de5f925f815d0aeea98649208d29490dcd18aefb"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_22.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_22.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_22.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_22.DBF",
+    "bytes": 680,
+    "sha256": "f6a3c3e6e70158c2300700c0cebaa2ef2cbb96f43d003831e162939aafbfd0cd"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_23.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_23.CDX",
+    "bytes": 177152,
+    "sha256": "3d9992f5b7e0010cbad98dc1f872ea22cf09dbc5bd521a9790532ecee711f9f4"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_23.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_23.DBF",
+    "bytes": 1576065,
+    "sha256": "bf654eef2f7e6691841b3e38758c8e92151a50f59aa64dcc8979a206e44201bf"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_231_trn_stdycst.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_231_trn_stdycst.CDX",
+    "bytes": 357888,
+    "sha256": "2aa0f799cc34674db1c94edf46e4ae16bacf2a34b548a8d5b88197e9f9dae3db"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_231_TRN_STDYCST.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_231_TRN_STDYCST.DBF",
+    "bytes": 2682904,
+    "sha256": "5803d7d7c2aab4c3d626c65bbd8a10dc97144a132394a1e150eaf24a2a084eea"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_24.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_24.CDX",
+    "bytes": 44544,
+    "sha256": "d6a55da93cd765480d84c9e09aaaf65e41ae6d58826a8b5586ed3634fc6ef9fc"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_24.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_24.DBF",
+    "bytes": 125025,
+    "sha256": "2430bcca1ab2a2efc57fa8a50cabb95d8b276e376edb17e98a1ebe8b06163edf"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_25.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_25.CDX",
+    "bytes": 225792,
+    "sha256": "7bb9bedad1d48a56f7f2549dbb31fed6fc002f5a188145030c2b13d354528fa7"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_25.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_25.DBF",
+    "bytes": 2164976,
+    "sha256": "ccb8fed07a9d4e66b9e37ee27af080e630b4c03d7b762e13f4c0fd85a8d61d31"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_26.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_26.CDX",
+    "bytes": 22528,
+    "sha256": "9a475d0f5e281010f639599e751665a2e217010ea9c948e520d1e223538c62f6"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_26.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_26.DBF",
+    "bytes": 21417,
+    "sha256": "c566a63926a0f7662e8c6dfb9d6e44fe1b85dbe2cf5c554681fa11a45a41f57c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_27.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_27.CDX",
+    "bytes": 308736,
+    "sha256": "79ef3821b54048f7df95550bf3b8c97030012600b59d192603fee6480464a975"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_27.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_27.DBF",
+    "bytes": 1083057,
+    "sha256": "af777caafdff884fa632c1cec185b1eaab82761b21462b0d29f87d20fada0827"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_28.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_28.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_28.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_28.DBF",
+    "bytes": 744,
+    "sha256": "ad73b893c483f270d3e524df27dacc2564a26799031e554a8046f08348dfc836"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_29.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_29.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_29.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_29.DBF",
+    "bytes": 680,
+    "sha256": "b0c143c53043a438988241b3bdbca693e1f919d8bec74cbdb069c4d9ef6c41e1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_3.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_3.CDX",
+    "bytes": 67072,
+    "sha256": "de1d990071bd08d5490c60bcc1bb6e38212e0010ac3e0436843b6111e361551c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_3.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_3.DBF",
+    "bytes": 460811,
+    "sha256": "e8cecd406c1352bc92ca3ca58e7d4d44131a2b6b464ca74cdcd3b48b618b8986"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_30.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_30.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_30.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_30.DBF",
+    "bytes": 872,
+    "sha256": "d6b1cdf001a1eb7ac23b7954221da25186e778404b1b29cd0b7e680666168d43"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_31.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_31.CDX",
+    "bytes": 125440,
+    "sha256": "75376d2489e8f5d6157db521f22ffdcc1503573587af3cc6e94ea03f5a1ff8a4"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_31.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_31.DBF",
+    "bytes": 1411311,
+    "sha256": "b84987277dbcd12ecf760b3e332f2246bcb44925fcafdbac03ac83e66a0fe2d3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_32.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_32.CDX",
+    "bytes": 18944,
+    "sha256": "c10559602f4c36a69c51453fc7a0000a3930d485d3fd255954abb2f844695b36"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_32.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_32.DBF",
+    "bytes": 17941,
+    "sha256": "2a2e6514ee5efdc2772323aea870c2f8f06e07e3e011c52b6295de55bd88e97c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_32.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_32.FPT",
+    "bytes": 105024,
+    "sha256": "c3ed81609713bdd8293cc0ece86a14cb4595233346a81f89941bb9f3eadea6e7"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_324_elc_expns.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_324_elc_expns.CDX",
+    "bytes": 923648,
+    "sha256": "01466db6985e6d93195c4dbf1e3c391865ee8fbb715a194e20858171a0528454"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_324_ELC_EXPNS.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_324_ELC_EXPNS.DBF",
+    "bytes": 2229033,
+    "sha256": "8237067102d1eb6cabe58fc88babcfb836a423428a84c56847bef3a308a5e066"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_325_elc_cust.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_325_elc_cust.CDX",
+    "bytes": 294400,
+    "sha256": "30c6e9502c2802e024dcb4c450573ba9ce5677dde90485d9d1f5dc7fd4e551f8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_325_ELC_CUST.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_325_ELC_CUST.DBF",
+    "bytes": 669033,
+    "sha256": "f6866e6a320b914bacfb275cd58695d431b49c3fbb6e59037532ee4187806318"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_33.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_33.CDX",
+    "bytes": 24576,
+    "sha256": "edfdb34e0ac27d5ac002342ef641321f44b6967282e9caac7b6b8e97bb37599d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_33.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_33.DBF",
+    "bytes": 275257,
+    "sha256": "11537e963301a7af1f07344d20e2addbf3725ec56bd727f7112c8b4a47beccb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_331_transiso.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_331_transiso.CDX",
+    "bytes": 55808,
+    "sha256": "9164c7d41a6838d81ffe54b4ba686f8c2b2fa52109ee60bfd0db8ce3f28d557f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_331_TRANSISO.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_331_TRANSISO.DBF",
+    "bytes": 356553,
+    "sha256": "9212d79114d37d7c90789a43d56e0ffe0b72014f655255871e2fd3eaca95775f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_338_dep_depl.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_338_dep_depl.CDX",
+    "bytes": 85504,
+    "sha256": "ca389c67b707c476a84f69db57a7baf463e98b8e494efa2fb41047f99023ca8b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_338_DEP_DEPL.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_338_DEP_DEPL.DBF",
+    "bytes": 475481,
+    "sha256": "35514a4a6e8ea79e0a312bbccfb1cfe803e04d712c0c6512c8d7d57748cac790"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_34.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_34.CDX",
+    "bytes": 40448,
+    "sha256": "8c6ebfe53159d27947f5dad5d202603096cefbff72f4e990b1f6ad865be8ef1c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_34.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_34.DBF",
+    "bytes": 29247,
+    "sha256": "b7638b4acd3375109cd13384c3ba4bef8d96317a040663111cd3b982321a0ac4"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_34.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_34.FPT",
+    "bytes": 10951936,
+    "sha256": "7872759f1afc09eca8b4d02aeb99e8684d11fbfc35ef3836f0994d32a8942692"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_35.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_35.CDX",
+    "bytes": 451072,
+    "sha256": "6bf544fd748a743d62ed1bcdc8479823a2ff95a0eb129dd0945ec244a785f9a1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_35.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_35.DBF",
+    "bytes": 2508613,
+    "sha256": "215801aa50587060bf5bf7e57ac9bdacd0f949d44b5f22ea3d0aa11b67b589b2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_36.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_36.CDX",
+    "bytes": 270848,
+    "sha256": "0bc439692dd76013943b03f29fe58d96451ad267e313e5fbb1ad9aa2e690b66c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_36.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_36.DBF",
+    "bytes": 4759203,
+    "sha256": "f2b13925437e8ba69af2cc2487093acd111d3788c9227d2ecaa74ef8c7ae44ac"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_37.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_37.CDX",
+    "bytes": 64512,
+    "sha256": "3d1db78cda6d2e0b5ab724819694db49f8a770bab98085d2980683a8c9345bde"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_37.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_37.DBF",
+    "bytes": 290909,
+    "sha256": "001bb74c98bb2fb204426e6856602949910989476a62684c2aa2050f194c24b3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_38.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_38.CDX",
+    "bytes": 54272,
+    "sha256": "22c4153f54c9746b40dc908dd34cfcc5346c1de437f0fc9892bee6c4b71c5b31"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_38.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_38.DBF",
+    "bytes": 360261,
+    "sha256": "c24808f40e12d946e6294762f7c478cdce9fe6a9239d81bf8d9e0bcc50d4418c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_39.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_39.CDX",
+    "bytes": 47616,
+    "sha256": "c2ac113dc69bff970439646690d100136899f8ad5c36b8507ebace1c995de423"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_39.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_39.DBF",
+    "bytes": 342577,
+    "sha256": "2fced82fc808906497f49de2caf2b5b874532ee986e084e911f727ccb10b25b2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_397_isorto_stl.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_397_isorto_stl.CDX",
+    "bytes": 115200,
+    "sha256": "04d81b9fe15b8bd0765db4095d5e3722c4e2d77fcfc5dbbd534b93b8f6365323"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_397_ISORTO_STL.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_397_ISORTO_STL.DBF",
+    "bytes": 797940,
+    "sha256": "ae03b969d29c8f2b967c54dcc601908d743120d8b8c45f551360db20fb815612"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_398_ancl_ps.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_398_ancl_ps.CDX",
+    "bytes": 23040,
+    "sha256": "597947ae5ad8669d2af612264c23dc2eb4b499b67b3a64641ef2ee7fc4a7de2e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_398_ANCL_PS.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_398_ANCL_PS.DBF",
+    "bytes": 93773,
+    "sha256": "5345f15094258738d8a897ebcf8baa8a625438787c68e72c71a85d9d5880d505"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_399_mth_peak.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_399_mth_peak.CDX",
+    "bytes": 81920,
+    "sha256": "6154d3e3c0951b75fe6aadd415ff9d29bb23b93b1b435da647a8a4d1238f82c1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_399_MTH_PEAK.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_399_MTH_PEAK.DBF",
+    "bytes": 780145,
+    "sha256": "b5667317a8b42fe68d1f711555c125ad9daf957249431da9f5e0a96c6ff68af7"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_4.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_4.CDX",
+    "bytes": 24064,
+    "sha256": "27befaf70752f5b8db657905139af4429b34e4c943718a6897b9e29078274c2d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_4.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_4.DBF",
+    "bytes": 155166,
+    "sha256": "881272b5770939688bbede3b55c5fabfac881b64ee800aa88b8983030a5f57e2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_40.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_40.CDX",
+    "bytes": 32768,
+    "sha256": "ca952cad263eccc223d5745ec3e252acbfa47f30ad729d405efa1d3060ccd259"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_40.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_40.DBF",
+    "bytes": 143599,
+    "sha256": "31e1dd79fc843ac2ef73416742d95f11a71fabdc72bccc43456619de4de94845"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_400_sys_peak.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_400_sys_peak.CDX",
+    "bytes": 153088,
+    "sha256": "f35cb511cc42de338242eddad4f3a7671b4911fee802518545aef310364b6fce"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_400_SYS_PEAK.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_400_SYS_PEAK.DBF",
+    "bytes": 2102953,
+    "sha256": "7dde59bf2fe8bd198d23f3c8a68a5df7d3a044ffd6333d4f16112f75caede360"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_400a_iso_peak.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_400a_iso_peak.CDX",
+    "bytes": 35840,
+    "sha256": "436effa52060636503fe9ecef5878ccc4c311d692e2651e5e4260b8a0642f560"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_400A_ISO_PEAK.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_400A_ISO_PEAK.DBF",
+    "bytes": 437983,
+    "sha256": "0100d6234399e6c2f322f60064aecd8dbe0b29e80aa6e0bcdb73249162b7c1da"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_41.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_41.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_41.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_41.DBF",
+    "bytes": 808,
+    "sha256": "884b3fadbd39af3e17f70e6bf0805771a9a4d005a5eeba1447de2d0a0d081c05"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_42.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_42.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_42.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_42.DBF",
+    "bytes": 808,
+    "sha256": "1754d7fd3bebc089eac2e92e23d817b3ad85d620a743c83cc670e69ac61b93e3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_429_trans_aff.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_429_trans_aff.CDX",
+    "bytes": 91648,
+    "sha256": "877491d194be8840b7334069129c8de2e5e1d94b4e3fa9e403e28e128967ca8f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_429_TRANS_AFF.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_429_TRANS_AFF.DBF",
+    "bytes": 790193,
+    "sha256": "10ffbd5c4b4fc2bf38981e64828811bc96bee1124998e8ed727aa84f63c16f4e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_43.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_43.CDX",
+    "bytes": 40448,
+    "sha256": "538ce01a53558ca089878c287ccf4ab9095336ee8b7cee1e17b5698fa73dcce6"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_43.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_43.DBF",
+    "bytes": 28652,
+    "sha256": "9011ac6462e939a4c89d3454c8f714e266fa7d2547503f4840c98c2727ff83af"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_43.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_43.FPT",
+    "bytes": 369068224,
+    "sha256": "a766a59c264b76e5c6d210d82373828c94b98dc2cf11f9823bf727731c4f3e4d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_44.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_44.CDX",
+    "bytes": 11264,
+    "sha256": "227c8d498f9f1f2e2a84c942f9ded181f931d461ba37c888d6ab59334f7400e0"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_44.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_44.DBF",
+    "bytes": 29853,
+    "sha256": "9f934cd20ebc31d11cb837b89316407940950968e9e39aa607742b9271eb1704"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_45.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_45.CDX",
+    "bytes": 58880,
+    "sha256": "9dd42e1ba236fccaf21fa70224d0f60cc3b41425e815572f6c07604ccbbdeaf5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_45.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_45.DBF",
+    "bytes": 364045,
+    "sha256": "834c9c902389a739bfe4f74c6fce5251aa3d7cb89630bba4515badf7dec6791e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_46.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_46.CDX",
+    "bytes": 45056,
+    "sha256": "10ba76c3cfe35fb84b84263bb1b142120fb3d69713787aaa0f2daaa44208d246"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_46.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_46.DBF",
+    "bytes": 300762,
+    "sha256": "f864850ea582f965b7d7d4ea7447efd9f26a6f1e4a6a4aaf3cdd1ad32038c5be"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_47.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_47.CDX",
+    "bytes": 47616,
+    "sha256": "a4694e0340c72e66f7df7c25b2ec2d44d85a516fac00ed9b0811f0372bb78874"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_47.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_47.DBF",
+    "bytes": 271861,
+    "sha256": "647cc544151a6785dcd7790f946f657ebbd82e0c7b233d8cf95459b5e64c4c6f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_48.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_48.CDX",
+    "bytes": 524288,
+    "sha256": "5edb1031ae945a81147719522e756c7ff30a21e0d4a3e4efde7830a163999261"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_48.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_48.DBF",
+    "bytes": 4697437,
+    "sha256": "93b5dfaff937a71ddb879fd8c31f5855ad31f3995ad6d1ddc26e0b0ccd14febf"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_49.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_49.CDX",
+    "bytes": 335872,
+    "sha256": "291a87670e7e2f3c64e51bb8dcda2c0f8f962bb899769a40d009d39b4ba46c75"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_49.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_49.DBF",
+    "bytes": 3014377,
+    "sha256": "825549e19ebd633853e77279a64bb2a5f05d7a2c9f7c3ef3b36b9331050368bb"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_5.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_5.CDX",
+    "bytes": 37376,
+    "sha256": "8c71f06b60810728653923d0b9b804cb7db49cb307af5640ebd2ce43edd24693"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_5.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_5.DBF",
+    "bytes": 195208,
+    "sha256": "e75366f8e4085bb15efedfb00810791c7d75a1474b5f62f322c9b33d1f3a7c42"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_50.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_50.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_50.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_50.DBF",
+    "bytes": 1064,
+    "sha256": "3be4ae453ad48e2bbda48e3f53d69a66a49f00c431893c74e6a525ed283c3edb"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_50.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_50.FPT",
+    "bytes": 512,
+    "sha256": "b11162605d45a90c5250b12fd0df62ed463de2ad7430d2f24033b57ca014f9ef"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_51.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_51.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_51.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_51.DBF",
+    "bytes": 744,
+    "sha256": "d1721b737c96139d292f0fc53798fe442ac5eb75eb28b1e62ead66628494c464"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_52.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_52.CDX",
+    "bytes": 182272,
+    "sha256": "6763e844e59f78d18f8e4a6d02d5d33bbc4f77054149c894daad582a416b5040"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_52.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_52.DBF",
+    "bytes": 1378936,
+    "sha256": "e5b26556269d3576582e52c0c6f9eeaed13dfb5ac3f66378687daf6a273875af"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_53.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_53.CDX",
+    "bytes": 13312,
+    "sha256": "2c9e98f8bf4c61b2f03eb5b7b3baa815c2f8c0b72059fb076eba6b16e84ba6d1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_53.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_53.DBF",
+    "bytes": 203385,
+    "sha256": "8efdfe2bb0fefa4a7de10fd3467368293f05d1fb69a9503372284b1888d8a80d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_54.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_54.CDX",
+    "bytes": 156160,
+    "sha256": "4b183492c4e0373355babd9c28d49d02b5c05c8dc39cfccd20f58457bd9f1d4c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_54.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_54.DBF",
+    "bytes": 2292265,
+    "sha256": "b5ef2be0523337752d7a9f0186520ed30f60f22578d2a3016b8cf9957a4f5dde"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_55.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_55.CDX",
+    "bytes": 74752,
+    "sha256": "a7b7ada752b6ab4f856d728a7785a88736d624f1a0d54f8a5dde5bb09711d2e3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_55.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_55.DBF",
+    "bytes": 518691,
+    "sha256": "e919f82a47d6f6d9804f5ea27136a6144988e70a9cdd30af531fe45468df53c2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_56.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_56.CDX",
+    "bytes": 59392,
+    "sha256": "8d5c4dd39842b379301965f8cb0378ec475846f5dd28cb1e54cfaaf2713e4f63"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_56.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_56.DBF",
+    "bytes": 733129,
+    "sha256": "3a2cb15fc795f1e209519aafb4861e4abcce944a91a1c2afe818ceea4f080cb2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_57.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_57.CDX",
+    "bytes": 27136,
+    "sha256": "0dfc9dd5a4e752c732da1c5b1ce60162d37f96e6fbfc36514ed1a9ca599c90f1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_57.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_57.DBF",
+    "bytes": 149954,
+    "sha256": "e4a3614457e701173e133910fab2a089d704db1f0482e5cd7ce9a260514fdb4a"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_58.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_58.CDX",
+    "bytes": 890368,
+    "sha256": "f73b3b0b5c302b06002d3d47b3a7f8aeca567e61a6e15c04f205f97a01e9d63c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_58.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_58.DBF",
+    "bytes": 8552253,
+    "sha256": "9d8cbf5c5c6bc93bda0a07fe98407ac02412c505aa5aa390569aa4d629efc99e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_59.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_59.CDX",
+    "bytes": 34816,
+    "sha256": "448e3c6c5dd7fd2f46018465bb4e7f3d192ae8833071e5cc18064c048780ba6b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_59.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_59.DBF",
+    "bytes": 318910,
+    "sha256": "b7b57c34fa651aedb3bb8473996bc8da4d7123399bc04afe6844fdcc4125aacf"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_6.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_6.CDX",
+    "bytes": 10752,
+    "sha256": "01d6816cfd16e54c81cab10fab54dd90a84255e4b83871a62ee406361b5747aa"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_6.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_6.DBF",
+    "bytes": 2157,
+    "sha256": "80e74b371baaade27d8da98548215f908ea856524f96b7b07931ef71ebf72753"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_6.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_6.FPT",
+    "bytes": 50112,
+    "sha256": "bafb6f5f6a786a6367a5223487c94badc8b1a60a153bba548bcdd95aaf655691"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_60.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_60.CDX",
+    "bytes": 228864,
+    "sha256": "1ca5cac90343dd4009cf5d94a9b51f098b54491b78e08db9bd6694e2cf0e23d3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_60.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_60.DBF",
+    "bytes": 1940457,
+    "sha256": "6abe8670ea2a77bde1cc1b56c45fb42fa4b98f96f8c1137fe7702a98e08d79e9"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_61.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_61.CDX",
+    "bytes": 76800,
+    "sha256": "d32ecdd1ec357393e22601a71f80c4d02d9d80d338b9300bd3ac9e6f9cf22da4"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_61.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_61.DBF",
+    "bytes": 954137,
+    "sha256": "8d0b02c727f7fd5fcdc22c2fd31797b75eb7e443ab4b0b00961f74b255aebc47"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_62.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_62.CDX",
+    "bytes": 14336,
+    "sha256": "b42e35347bae683e66bb3c2a2f424d27c3f0a628ae13b8471c65d0c14e177734"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_62.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_62.DBF",
+    "bytes": 22994,
+    "sha256": "e3628c3884c82f59c1d0c14323f642c3106f6dacbe76045235a43bf38c86a12e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_63.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_63.CDX",
+    "bytes": 196096,
+    "sha256": "af7dde7b271daf9ada56e71e77151f011780b7ae70e24dc4e139ec494a02a469"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_63.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_63.DBF",
+    "bytes": 439383,
+    "sha256": "74bd2183aa78d2ec5669ded191bd64c8c2adc026fafe9537dc8b30edfead0190"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_64.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_64.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_64.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_64.DBF",
+    "bytes": 1192,
+    "sha256": "6471e70ac1209931bb3b6fbd3f83c110a51df09ddac22b90ba1b0959deba665a"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_64.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_64.FPT",
+    "bytes": 512,
+    "sha256": "b11162605d45a90c5250b12fd0df62ed463de2ad7430d2f24033b57ca014f9ef"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_65.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_65.CDX",
+    "bytes": 118784,
+    "sha256": "9e93fca6bd7fae1b3209221a980d9bb178e125e844e57079e2f03588d65ea64e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_65.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_65.DBF",
+    "bytes": 889142,
+    "sha256": "1e1d62374fe042062d9de850b5c3547edd9736007189e5af5ea60ce26267c6e8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_66.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_66.CDX",
+    "bytes": 915456,
+    "sha256": "58eb3e618ed93824ad47446607d1382e4b3939c0aed1bd0f3384d042fff8aeb8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_66.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_66.DBF",
+    "bytes": 14287664,
+    "sha256": "539c6a6aa761c788f8e7a2e9f646847a842b453385df5bf20a9c8ce3080aa5a3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_67.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_67.CDX",
+    "bytes": 118784,
+    "sha256": "3e76cc86636decc4361e21681119b6b21171c025ebcf114e264a69bc95f1188f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_67.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_67.DBF",
+    "bytes": 1664486,
+    "sha256": "011a9a33d48ba8fb9dbb4555317203d7ed8c7f7bf35e2dc64c50480b9f11c45e"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_68.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_68.CDX",
+    "bytes": 17920,
+    "sha256": "16c39ae39bb961b9f7396287bf4dbf26aa20e08197afe3ea94d9a21ebd131a04"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_68.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_68.DBF",
+    "bytes": 70989,
+    "sha256": "71ec6524b5a887e38a48227ee3ffe2f7b8d21195cedb83259d1323bc5268ca66"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_69.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_69.CDX",
+    "bytes": 139776,
+    "sha256": "1368360fc1a5e68537ff604ec67b7dadf831f623617ff5953e513ee82d77535b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_69.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_69.DBF",
+    "bytes": 3872617,
+    "sha256": "26b42a1e7c9996af44430495c4644d385ff524909f15f18628884c8752ee0b0c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_7.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_7.CDX",
+    "bytes": 11776,
+    "sha256": "790581975ed71e13772514c303083879b68bdf147fc21c9e97380ae03efb0122"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_7.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_7.DBF",
+    "bytes": 58140,
+    "sha256": "04aa0212f6c1b6df015f9f97d4c7c2c027ec21ef7cb0c6bd36ca32d26e087032"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_70.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_70.CDX",
+    "bytes": 215040,
+    "sha256": "bc93db9ab247fb8b217ee540ced59b28670fef39e1f89179efa796b90a66de2f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_70.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_70.DBF",
+    "bytes": 1487076,
+    "sha256": "96a1f17e04025d2da57c321e16a429977688ee94273c6dec731a9454a977a7aa"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_71.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_71.CDX",
+    "bytes": 30720,
+    "sha256": "1cf2383153ece3ce2e85ac33bbedfcb3cf155d762903529fe6c7f344d0ecee58"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_71.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_71.DBF",
+    "bytes": 378681,
+    "sha256": "137a3f01b8e8ea0b9e03a035b19624f1a2a138f6d511e1d7b7d06bad05a23fa5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_72.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_72.CDX",
+    "bytes": 110592,
+    "sha256": "fe856556b5e054010f3687228f262b68ec23dfebd27e2831c7a936f8a6442815"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_72.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_72.DBF",
+    "bytes": 932065,
+    "sha256": "acb264f17cd231172d46fc555d183bc34063e5093738d3de621eb9c42c8f6bdd"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_73.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_73.CDX",
+    "bytes": 351744,
+    "sha256": "3be4374479ee49041b76d52e1555f50c3b76378d57d5df266cee0a74614cda69"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_73.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_73.DBF",
+    "bytes": 6457383,
+    "sha256": "fb17460b67b2562207a9c303d92661fd45692c6279302129744608b4cc978c63"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_74.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_74.CDX",
+    "bytes": 531968,
+    "sha256": "6be67a7175afa25f0fe5c6eae286b75f459a7b460bb4f51e3ee94e1dc84bba7d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_74.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_74.DBF",
+    "bytes": 10089051,
+    "sha256": "ce193bd5cb75fdc5aa8db80f66996fccbe6ded80d47d8cbd5d951c38a58043e8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_75.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_75.CDX",
+    "bytes": 12288,
+    "sha256": "5c8c4123c7c4c6a413b2d106891f87965295ca80b6c5fd974e8bb5b02bc93c2c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_75.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_75.DBF",
+    "bytes": 23679,
+    "sha256": "398534b1a6fdaab6aeea7b89105883890231e6569e08918ead9363e2fc1a345f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_76.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_76.CDX",
+    "bytes": 3072,
+    "sha256": "8a99a22999ee72c7cceae16355aa33ecee57802edc093f07c726f2feba91a257"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_76.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_76.DBF",
+    "bytes": 8583,
+    "sha256": "5c7fed77ccbd1ac012175fc6c2397479fcce90064294e17aaa9df3a33671219a"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_77.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_77.CDX",
+    "bytes": 3072,
+    "sha256": "3c4e2337fa303d2dffcf2bf36aea5d58f7db22843edcd965da3e158c1d4c8be2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_77.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_77.DBF",
+    "bytes": 520,
+    "sha256": "27c8ac78f2a3d5167685854ab42a18d035c40fb30f7a8445a8d2f18ede9e0d2a"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_78.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_78.CDX",
+    "bytes": 6144,
+    "sha256": "a0f04bbd0cf7009f62aa789533e9bc50a10bacc75670b2e022f6fc4be7f1fbc8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_78.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_78.DBF",
+    "bytes": 552,
+    "sha256": "e10b4fdd07e4023e7dcc3117b44fe01d84612562540627243716f37c81262a02"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_79.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_79.CDX",
+    "bytes": 3072,
+    "sha256": "3e69e0f1c616f842993a6177635ca437272cd19df01b0782bf62a0fcf0cd9778"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_79.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_79.DBF",
+    "bytes": 520,
+    "sha256": "7f06086ec33180b6f5e48e70002a7c8f4a6794c61d1a335c3d27d63360a82fd1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_8.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_8.CDX",
+    "bytes": 41984,
+    "sha256": "bf39995d52d55a47e818f27dc5c2919f7ea55bb6a7238c7b2c8cdb4324e08ea0"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_8.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_8.DBF",
+    "bytes": 427285,
+    "sha256": "c82705b570dd19f25c39d746852f57bafd76f81e21537a3acc25504962c16212"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_80.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_80.CDX",
+    "bytes": 10752,
+    "sha256": "3e9240c30e78c90de23d123cbcf65f23858d2c27303a17ec553e38350f4df20b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_80.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_80.DBF",
+    "bytes": 584,
+    "sha256": "32f3f1b6eb1b6195ae29f2599c17523ed344621a3a0444e8cb64611bc3cfbf93"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_81.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_81.CDX",
+    "bytes": 6144,
+    "sha256": "39e46db9dd1aa0b8a2f5cff7357a57b0ad2a97055d36834e239c3d2c7657c5cd"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_81.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_81.DBF",
+    "bytes": 456,
+    "sha256": "7541167c1706ad65902e637a55455a0103088674f822a6904b5fd574df6f169d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_82.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_82.CDX",
+    "bytes": 6144,
+    "sha256": "a0f04bbd0cf7009f62aa789533e9bc50a10bacc75670b2e022f6fc4be7f1fbc8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_82.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_82.DBF",
+    "bytes": 584,
+    "sha256": "cb8115832d62584c4e5bbefef5d409edea0a254e755005fc02157f9bc4c2d4ed"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_83.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_83.CDX",
+    "bytes": 3072,
+    "sha256": "3fe3ae274fcfef89fbec9c3d8745d1b31ffb48de12da41754dcc1b2555398729"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_83.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_83.DBF",
+    "bytes": 439,
+    "sha256": "63e4b92f2d58cf2b521eace7116eca92483b56044ce052c1a5a68cfd8d548fe1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_84.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_84.CDX",
+    "bytes": 22016,
+    "sha256": "8a629b6f9d2600eb417804dd7246ae6dd3192bd207daebf8bf641c4c42d1c095"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_84.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_84.DBF",
+    "bytes": 319520,
+    "sha256": "101f9369b913aa7a83127198e645575d254624690f8d42081aff22f98962bf41"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_85.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_85.CDX",
+    "bytes": 9216,
+    "sha256": "6a0e178df9d688f94fa1e06eda3c9f1c4122813320d543fdf8fab4b9cc225fb5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_85.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_85.DBF",
+    "bytes": 808,
+    "sha256": "6bee512dcdd24755b31d5c0799dd943c8082ea4c9613aba6b3cd53456178dd97"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_86.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_86.CDX",
+    "bytes": 20992,
+    "sha256": "faa3b97ec7bbfbbf302564da0bbf5f55432f69b6c6b138b75790f074f12d5970"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_86.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_86.DBF",
+    "bytes": 470229,
+    "sha256": "b961924d91fc1cdb5bc7aa7056d5a30cb6a8cc884f8558d6d664fb57e06b0651"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_87.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_87.CDX",
+    "bytes": 900608,
+    "sha256": "757cb7e73390034a9e091dda3c5db386a9e5da7ad2d4e41b5d283bb5e03daad8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_87.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_87.DBF",
+    "bytes": 2190779,
+    "sha256": "018b35339ae967b49724ef00603d42ae3c63287f90755edeee2f63443affb7ac"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_87.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_87.FPT",
+    "bytes": 232395456,
+    "sha256": "bf77d89998bb22503c78a57259f0c1307afeddf592311f0d0b2a53e9e6a641a2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_88.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_88.CDX",
+    "bytes": 17408,
+    "sha256": "c09f4f216cc58d50e399b8cdab64ec390ab7df2ea361abff626eee790763fe23"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_88.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_88.DBF",
+    "bytes": 552581,
+    "sha256": "dc52f1cac5330d71d4294e906841d31334be27291092737e77fd90e021bf92a8"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_89.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_89.CDX",
+    "bytes": 51200,
+    "sha256": "bb319439fd8a1b29b792708f3e8ab4ecf104866d691194ad6d298582f5f59751"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_89.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_89.DBF",
+    "bytes": 1594707,
+    "sha256": "cea67028040997528a4bfc56e0efa27a9ce726dc28febf74502205f2dd6b8421"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_9.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_9.CDX",
+    "bytes": 33280,
+    "sha256": "d58d739d6201898e4deb3a15cc2255a84b1f4a8194d2a0818e5549151fb60e20"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_9.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_9.DBF",
+    "bytes": 288409,
+    "sha256": "03915e992a4a6a286ad4d58b05ece87fa96ef4db025efb4e0443c99d55aa158b"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_90.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_90.CDX",
+    "bytes": 11776,
+    "sha256": "ad2c314d468c9d4bfbd801f1d6d84259601c200d1e6b9efc69c8c6fc1d4d1fe3"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_90.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_90.DBF",
+    "bytes": 21222,
+    "sha256": "48517931402035d7fb1ebf0d8e275895cff8d2272efbd4d8ff28657a82540962"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_91.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_91.CDX",
+    "bytes": 33280,
+    "sha256": "2ddc8695190fa647c7e65ff3b349c055424c5650eafa48cdde68ba1c81eb6bed"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_91.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_91.DBF",
+    "bytes": 274589,
+    "sha256": "28fd93dbefada896bfd37d7a5c7ee5df58d0081b85a94b7b1765b21d7fd813d2"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_92.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_92.CDX",
+    "bytes": 37376,
+    "sha256": "1b5543dfd7f86de3e9661026fcf853e6455e050420f69cab27db2dc62b3fabef"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_92.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_92.DBF",
+    "bytes": 173401,
+    "sha256": "2762ee63612af764cd4b61ee230f29686e897ed265d79c2590c96146e69bc9bc"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_93.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_93.CDX",
+    "bytes": 109056,
+    "sha256": "8362cb54a97af21c0ea7a9b3973ce7a108376d00bed4dbb5f01f8ddd669fbc42"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_93.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_93.DBF",
+    "bytes": 1353253,
+    "sha256": "400988ee807ab1999df18a9e8872cb3ada85eeecc7bab95a6abe4109768ae9c1"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_allowances_nox.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_allowances_nox.CDX",
+    "bytes": 20992,
+    "sha256": "d2b8462f68b1b3274d155e56131f0e6d8889e2960c9dc4634b8771ac4e6d903d"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_ALLOWANCES_NOX.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_ALLOWANCES_NOX.DBF",
+    "bytes": 1253239,
+    "sha256": "5fa6da01baac8a31cf7467e595c09a00ef78e613d99f518b78e3f4f7eba0b032"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_cmpinc_hedge.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_cmpinc_hedge.CDX",
+    "bytes": 84992,
+    "sha256": "1f0816ece1615501c57a0dfb96569b5f099510c028a8dc2dfc465f73d835782c"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_CMPINC_HEDGE.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_CMPINC_HEDGE.DBF",
+    "bytes": 788457,
+    "sha256": "4eeb261d509deffdc31d2a4bd756c2496aba5be233583d7c421ed800cbc3b929"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_cmpinc_hedge_a.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_cmpinc_hedge_a.CDX",
+    "bytes": 35328,
+    "sha256": "1ead5a6e4cfa0694303e8e23621f0973abdc3d368fc09b8645a9d14116c16f54"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_CMPINC_HEDGE_A.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_CMPINC_HEDGE_A.DBF",
+    "bytes": 90697,
+    "sha256": "bc03cae2757c7466dd3260b0119a7c84c1f18d06f882e9495738857b36115ba9"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_EMAIL.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_EMAIL.DBF",
+    "bytes": 140773,
+    "sha256": "78c96e6a14635af46e2a5bab5f6273499e41b5c8c3f533e7bcb5e7fc40f2a56f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_EMAIL.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_EMAIL.FPT",
+    "bytes": 1152,
+    "sha256": "c61e871610646f7baa879c0709a751ea01b0c975334f7b1f8dd2ac2bc9af1a3f"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_PUB.DBC",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_PUB.DBC",
+    "bytes": 521458,
+    "sha256": "8fe3d3a4132226fdcee253eb1951b0d5a13c8f81108ccaeb2db1631680f9b689"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_PUB.DCT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_PUB.DCT",
+    "bytes": 49216,
+    "sha256": "e81394f5bfdda65d1117701571b128793c8eb3c52b0183576d917439798bdf02"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_PUB.DCX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_PUB.DCX",
+    "bytes": 102912,
+    "sha256": "c318b5b1736c1fc98df08d7819fe0103abbe4032b350cb637300bd7c386446b0"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/f1_rg_trn_srv_rev.CDX",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_rg_trn_srv_rev.CDX",
+    "bytes": 25088,
+    "sha256": "ede4c5434ff281339a5365b5d2ca570c6a4be46d7f4ab6e27ea16dd1c58e7b74"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_RG_TRN_SRV_REV.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_RG_TRN_SRV_REV.DBF",
+    "bytes": 101520,
+    "sha256": "278d2764d3823f8a3b7b7ef319f344515e22371ee86171d7a3188a5ed9f900da"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_S0_CHECKS.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_CHECKS.DBF",
+    "bytes": 120169,
+    "sha256": "5ed79436a21614fffad00d1c1ed45d7a88ec0b46df83c3770438401d0ab7c078"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_S0_CHECKS.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_CHECKS.FPT",
+    "bytes": 592320,
+    "sha256": "96fd6a747b393d662dd83c6d787352cd1b67b4a480f34a6ae569271fbc3c28a5"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.DBF",
+    "bytes": 1953074,
+    "sha256": "61b2a0bf53454a6f102a520828d842679fb4a205bc51b485858aeae364ad5052"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.FPT",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.FPT",
+    "bytes": 1419584,
+    "sha256": "be63458660aa55dcba0e9a5319a42c5e3c6cc3b84c30dd266dd78458fbef04d6"
+  },
+  {
+    "source": "ENS costs and estimation/FERC form 1 2020/FORM1/working/F1_SECURITY.DBF",
+    "destination": "ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_SECURITY.DBF",
+    "bytes": 4781,
+    "sha256": "efa5c2f80caee1231a6d69c9aedfd2ac15bee0a027c894840491766497c85a90"
+  }
+]

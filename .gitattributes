@@ -1,0 +1,400 @@
+# Preserve imported source bytes and treat reference binaries as binary.
+"Map_webui/files/Hurricane/Historical storm reports/2011AtlanticHurricaneSummaryearlyrelease.pdf" -text -diff
+"Map_webui/files/Hurricane/Probability/Rainfall exceedance/AEP_Louisiana_August2016.pdf" -text -diff
+"Map_webui/files/Hurricane/Probability/Intensity and frequency/bams-bams-d-17-0184.1.pdf" -text -diff
+"Map_webui/files/Hurricane/Probability/Joint probability methods/14289jpm_lecture-1.pdf" -text -diff
+"Map_webui/files/Hurricane/Probability/Joint probability methods/R2_Joint_Probablity_Analysis-2.pdf" -text -diff
+"Map_webui/files/Hurricane/Probability/Intensity and frequency/Attachment-C2-4_FINAL_5.15.2017.pdf" -text -diff
+"Map_webui/files/Hurricane/Probability/Landfall/Colorado State/hp1.png" -text -diff
+"Map_webui/files/Hurricane/Probability/Landfall/Colorado State/hp2.png" -text -diff
+"Map_webui/files/Hurricane/Probability/Landfall/Colorado State/hp3.png" -text -diff
+"Map_webui/files/Hurricane/Probability/Landfall/Colorado State/hp4.png" -text -diff
+"Map_webui/files/Hurricane/Probability/Landfall/Colorado State/hp5.png" -text -diff
+"Map_webui/files/Hurricane/Probability/Landfall/Colorado State/landfall_probabilities.csv" -text -diff
+"Map_webui/files/Hurricane/Historical storm data/Storm-Data-Bulk-csv-Format.pdf" -text -diff
+"Map_webui/files/Hurricane/Historical storm data/StormEvents_locations-ftp_v1.0_d2025_c20250818.csv.gz" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Regional flood defenses/144. Governor’s Advisory Commission, Louisiana’s Comprehensive Master Plan for Sustainable Coast_Part1.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Surge and flood studies/15-ARBC-August-2016-Flood-Preliminary-Report.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Transport vulnerability/6170105 1.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Flood rise and decay times.ods" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav 4.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav1.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav3.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Gustav/Gustav5.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Ida/Ida 4.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Ida/Ida1.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Ida/Ida5.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Ida/Ida_4_2.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac1.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac2.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac4.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Isaac/Isaac5.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Laura/Laura1.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Laura/Laura4.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Laura/Laura5.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Regional flood defenses/MLODS-SysEngReport_FinalComplete_Aug2014.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Surge and flood studies/PMSC_SurgeDynamics_Final_May_12_2016-f1-1.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Surge and flood studies/PMSC_SurgeDynamics_Final_May_12_2016-f1.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-02 193218.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-02 193245.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 133135.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 162933.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 170515.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 174056.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 182654.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 182859.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 183017.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 183341.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 183715.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 185630.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 190738.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 191126.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 192256.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 192710.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 202522.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Rise and decay/Reference screenshots/Screenshot 2026-03-18 203055.png" -text -diff
+"Map_webui/files/Hurricane/Effects/Flood/Surge and flood studies/Vol IV The Storm - appendices.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/091224_Francine_5pm-1.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/091224_Francine_5pm.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/091224_HurricaneFrancine_7am.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/091324_HurricaneFrancine_3pm.pdf" -text -diff
+"Map_webui/files/Substation/Hardware/Transformers/1435970.pdf" -text -diff
+"Map_webui/files/Grid reliability/Geomagnetic disturbances/2012gmd.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/2019-06_eop-011-2_clean_04022021.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/2021-07-final-ballot_eop-012-1_clean.pdf" -text -diff
+"Map_webui/files/Substation/Cost estimation/2022-08-17-ny-ju-upgrade-cost-matrix-combined.xlsx" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/2024-2026-serc_regional_risk_report_final.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/2024-ltra_corrected_july_2025.pdf" -text -diff
+"Map_webui/files/Substation/Cost estimation/20240501 PSC Item 04 MISO Transmission Cost Estimation Guide for MTEP24632680.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/2025_conventional_gads_training_module_11_factors_and_rates.pdf" -text -diff
+"Map_webui/files/Reference administration/Publication schedules/2026-Bulletin-Deadlines-Outside-Deadlines.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/3002012977_Emergency Management Guidelines Update_ Emergency Manual for Plant Operations-1.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/3002012977_Emergency Management Guidelines Update_ Emergency Manual for Plant Operations.pdf" -text -diff
+"Map_webui/files/Load/Residential/Bills 2024/table_5A.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Bills 2024/table_5B.pdf" -text -diff
+"Map_webui/files/Load/Industrial/Bills 2024/table_5C.pdf" -text -diff
+"Map_webui/files/Transmission/Design and ratings/BOLD-230-kV-Specifications.pdf" -text -diff
+"Map_webui/files/Load/Residential/Consumption and costs/ce1.1.st.pdf" -text -diff
+"Map_webui/files/Load/Residential/Consumption and costs/ce4.11.el.st.pdf" -text -diff
+"Map_webui/files/Load/Residential/Consumption and costs/ce4.16.el.st-1.pdf" -text -diff
+"Map_webui/files/Load/Residential/Consumption and costs/ce4.16.el.st.pdf" -text -diff
+"Map_webui/files/Load/Residential/Consumption and costs/ce4.6.el.st.pdf" -text -diff
+"Map_webui/files/Substation/Physical security/cip-014-3.pdf" -text -diff
+"Map_webui/files/Grid reliability/Other severe weather effects/Cleco-Press-Release-Severe-Winter-Weather.pdf" -text -diff
+"Map_webui/files/Substation/Hardware/Transformers/Daelim-Product-catalog.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/DEMCO-Activates-ERP_Full-Workforce-and-Additional-Resources-Staged.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/DEMCO-Restoration-Update-9-14.pdf" -text -diff
+"Map_webui/files/Grid reliability/Other severe weather effects/ELA-Power-Delivery-Performance_Weather-Impact-0731-Event.pdf" -text -diff
+"Map_webui/files/GIS/Utility service areas/electric_cov_map_large2022_b.jpg" -text -diff
+"Map_webui/files/ENS/Utility financial data/Reporting forms/electriccooperativesannualreport.pdf" -text -diff
+"Map_webui/files/Transmission/Design and ratings/EnergyProject_Capacity_of_Transmission_Lines.pdf" -text -diff
+"Map_webui/files/Grid reliability/Other severe weather effects/Entergy-March-2022-Severe-Weather-Response.pdf" -text -diff
+"Map_webui/files/Hurricane/Effects/Power outages and restoration/Entergy-News-Release-Hurricane-Ida-Update-Final-09-21-21.pdf" -text -diff
+"Map_webui/files/Grid reliability/Other severe weather effects/Entergy-Press-Release-Extreme-Weather.pdf" -text -diff
+"Map_webui/files/Grid reliability/Load shedding/Entergy_load_shed.pdf" -text -diff
+"Map_webui/files/Substation/Flood countermeasures/ESFI-Submerged-Equipment-2025.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/Fact Sheet-Grid Resilience.pdf" -text -diff
+"Map_webui/files/Substation/Flood countermeasures/fema_p-348_protecting_building_utility_systems_from_flood_damage_2017.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/ivgtf2-4.pdf" -text -diff
+"Map_webui/files/Substation/Resilience and hardening/JDEC-January-BE-Presentation-1-18-23.pdf" -text -diff
+"Map_webui/files/Substation/Hardware/Protection and failures/ll20141202_bus_differential_power_supply_failure.pdf" -text -diff
+"Map_webui/files/Substation/Flood countermeasures/ll20150402_severe_flooding_damages_transformer_substations_final.pdf" -text -diff
+"Map_webui/files/GIS/Documentation/location-plan-export-tutorial-ArcGIS.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/m-11_energy_emergency_alerts.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/m-14_automatic_ac_transmission_outages_initiated_by_failed_ac_substation_equipment.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/m-6_disturbance_control_standard_failures.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/m-7_disturbance_control_events_greater_than_most_severe_single_contingency_mssc.pdf" -text -diff
+"Map_webui/files/Substation/Cost estimation/MISO Transmission Cost Estimate Workbook for MTEP25547535(1).xlsx" -text -diff
+"Map_webui/files/Substation/Cost estimation/MISO Transmission Cost Estimation Guide for MTEP25337433-1.pdf" -text -diff
+"Map_webui/files/Grid reliability/Load shedding/Miso_load_shed.pdf" -text -diff
+"Map_webui/files/Substation/Flood countermeasures/NEMA-GD-1-2016-Evaluating-Water-Damaged-Electrical-Equipment-Guide.pdf" -text -diff
+"Map_webui/files/Substation/Flood countermeasures/nema-gd-1-2019-evaluating-water-damaged-electrical-equipment-guide_2026-01-29.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/nerc_sra_2024.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/puct-weatherization-summary---oct-20-2022.pdf" -text -diff
+"Map_webui/files/Grid reliability/Assessments and metrics/risc-resilience-report_approved_risc_committee_november_8_2018_board_accepted.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/rscompleteset.pdf" -text -diff
+"Map_webui/files/Models/Infrastructure interdependencies/toOmer.pdf" -text -diff
+"Map_webui/files/Grid reliability/Standards and emergency preparedness/tpl-001-5.1.pdf" -text -diff
+"Map_webui/files/Transmission/Design and ratings/tran-line-ratings.pdf" -text -diff
+"Map_webui/files/Substation/Cost estimation/Transmission-and-Substation-Project-Cost-Estimation-Guide-for-MTEP-2018144804.pdf" -text -diff
+"Map_webui/files/Transmission/Design and ratings/UEP_Bulletin_1724E-200.pdf" -text -diff
+"Map_webui/files/Substation/Layout/UEP_Bulletin_1724E-300.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Distribution/1-s2.0-S2352467724002121-main.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/A_methodology_for_the_creation_of_geographically_realistic_synthetic_power_flow_models.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/asiamah_ji_watson_molzahn-hicss2026.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/asiamah_manoj_ji_williams_molzahn-ghana_peci2025.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Distribution/Building_Large-Scale_U.S._Synthetic_Electric_Distribution_System_Models.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/California_Test_System_CATS_A_Geographically_Accurate_Test_System_Based_on_the_California_Grid.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Validation/energies-10-01233.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Validation/Grid_Structural_Characteristics_as_Validation_Criteria_for_Synthetic_Networks.pdf" -text -diff
+"Map_webui/files/Models/Grid mapping/GridTracer_Automatic_Mapping_of_Power_Grids_Using_Deep_Learning_and_Overhead_Imagery.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/harris_banerjee_molzahn-ukraine.pdf" -text -diff
+"Map_webui/files/Models/Weather and power flow/HICSS_PowerFlowWeather_WithReviewerChangesFinal_WithFooter.pdf" -text -diff
+"Map_webui/files/Load/Modeling/Load_modeling_in_synthetic_electric_grids.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/Overbye PSERC Webinar Mar 15 2016 Announcement.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/paper0350.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/paper0386.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Distribution/Readme.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Transmission/Statistical_Considerations_in_the_Creation_of_Realistic_Synthetic_Power_Grids_for_Geomagnetic_Disturbance_Studies.pdf" -text -diff
+"Map_webui/files/Models/Weather and power flow/TPEC__PWW.pdf" -text -diff
+"Map_webui/files/Models/Synthetic grids/Distribution/Trpovski_SyntheticDistributionGrid_2018.pdf" -text -diff
+"Map_webui/files/ENS/Outage cost estimation/90927-market-based-estimation-of-average-electricity-outage-costs-in-the-united-states.pdf" -text -diff
+"Map_webui/files/Load/Commercial/ComStock/83819.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/b6.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/b7.pdf" -text -diff
+"Map_webui/files/Load/Commercial/ComStock/bp_electricity_intensity_by_comstock_building_type.jpg" -text -diff
+"Map_webui/files/Load/Commercial/ComStock/bp_electricity_intensity_by_comstock_building_type_checklist.jpg" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/c22.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/CBECS 2018 CE Release 2 Flipbook.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/CBECS energy sources.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/CBECS key energy stats.pdf" -text -diff
+"Map_webui/files/Load/Commercial/ComStock/electricity_by_comstock_building_type.jpg" -text -diff
+"Map_webui/files/Load/Commercial/ComStock/README-1.pdf" -text -diff
+"Map_webui/files/Load/Commercial/Building consumption benchmarks/US National Median Table-1.pdf" -text -diff
+"Map_webui/files/ENS/Outage cost estimation/CostofUnservedEnergy_Wattnow.pdf" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/.~lock.F1_1.DBF#" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/.~lock.F1_2.DBF#" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_1.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_1.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_10.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_10.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_106_2009.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_106_2009.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_106a_2009.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_106A_2009.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_106b_2009.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_106B_2009.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_11.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_11.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_12.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_12.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_13.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_13.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_14.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_14.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_14.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_15.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_15.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_16.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_16.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_17.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_17.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_17.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_18.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_18.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_19.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_19.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_2.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_2.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_2.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_20.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_20.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_208_elc_dep.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_208_ELC_DEP.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_21.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_21.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_22.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_22.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_23.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_23.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_231_trn_stdycst.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_231_TRN_STDYCST.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_24.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_24.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_25.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_25.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_26.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_26.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_27.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_27.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_28.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_28.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_29.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_29.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_3.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_3.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_30.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_30.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_31.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_31.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_32.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_32.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_32.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_324_elc_expns.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_324_ELC_EXPNS.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_325_elc_cust.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_325_ELC_CUST.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_33.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_33.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_331_transiso.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_331_TRANSISO.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_338_dep_depl.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_338_DEP_DEPL.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_34.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_34.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_34.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_35.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_35.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_36.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_36.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_37.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_37.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_38.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_38.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_39.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_39.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_397_isorto_stl.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_397_ISORTO_STL.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_398_ancl_ps.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_398_ANCL_PS.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_399_mth_peak.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_399_MTH_PEAK.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_4.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_4.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_40.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_40.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_400_sys_peak.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_400_SYS_PEAK.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_400a_iso_peak.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_400A_ISO_PEAK.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_41.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_41.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_42.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_42.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_429_trans_aff.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_429_TRANS_AFF.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_43.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_43.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_43.FPT" filter=lfs diff=lfs merge=lfs -text
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_44.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_44.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_45.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_45.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_46.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_46.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_47.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_47.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_48.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_48.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_49.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_49.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_5.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_5.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_50.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_50.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_50.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_51.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_51.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_52.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_52.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_53.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_53.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_54.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_54.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_55.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_55.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_56.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_56.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_57.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_57.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_58.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_58.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_59.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_59.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_6.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_6.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_6.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_60.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_60.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_61.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_61.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_62.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_62.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_63.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_63.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_64.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_64.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_64.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_65.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_65.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_66.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_66.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_67.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_67.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_68.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_68.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_69.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_69.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_7.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_7.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_70.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_70.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_71.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_71.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_72.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_72.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_73.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_73.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_74.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_74.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_75.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_75.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_76.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_76.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_77.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_77.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_78.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_78.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_79.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_79.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_8.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_8.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_80.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_80.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_81.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_81.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_82.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_82.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_83.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_83.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_84.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_84.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_85.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_85.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_86.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_86.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_87.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_87.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_87.FPT" filter=lfs diff=lfs merge=lfs -text
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_88.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_88.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_89.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_89.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_9.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_9.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_90.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_90.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_91.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_91.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_92.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_92.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_93.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_93.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_allowances_nox.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_ALLOWANCES_NOX.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_cmpinc_hedge.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_CMPINC_HEDGE.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_cmpinc_hedge_a.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_CMPINC_HEDGE_A.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_EMAIL.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_EMAIL.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_PUB.DBC" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_PUB.DCT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_PUB.DCX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/f1_rg_trn_srv_rev.CDX" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_RG_TRN_SRV_REV.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_CHECKS.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_CHECKS.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.DBF" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.FPT" -text -diff
+"Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_SECURITY.DBF" -text -diff
