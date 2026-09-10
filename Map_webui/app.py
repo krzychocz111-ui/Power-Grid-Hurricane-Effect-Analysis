@@ -168,7 +168,8 @@ def hidden_property():
 
 
 def normalize_name(value: str) -> str:
-    return re.sub(r"\s+", " ", value or "").strip().lower()
+    name = re.sub(r"\s+", " ", value or "").strip().lower()
+    return re.sub(r"\b(\d+)\s+(st|nd|rd|th)\b", r"\1\2", name)
 
 
 def cell_string(sheet, col: int, row: int) -> str:

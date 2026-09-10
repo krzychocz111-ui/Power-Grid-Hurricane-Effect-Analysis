@@ -170,7 +170,7 @@
             return polys.map(poly => poly.map(drawRing).join(" ")).join(" ");
         }
 
-        const normalizeSubstation = name => String(name || "").trim().toLowerCase().replace(/\s+/g, " ");
+        const normalizeSubstation = name => String(name || "").trim().toLowerCase().replace(/\s+/g, " ").replace(/\b(\d+)\s+(st|nd|rd|th)\b/g, "$1$2");
         const fmtCost = value => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 2 }).format(value);
 
         function drawSubstations() {

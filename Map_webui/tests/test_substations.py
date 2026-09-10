@@ -5,6 +5,12 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 sys.modules.setdefault('uno',types.ModuleType('uno'))
 import app
 class SubstationTest(unittest.TestCase):
+ def test_ordinal_spacing_matches_map_and_service_area(self):
+  name = app.normalize_name('Unknown substation at 72 nd  Ave')
+  self.assertEqual(name, app.normalize_name('Unknown substation at 72nd Ave'))
+  results = {name: {'full': True, 'partial': False}}
+  self.assertEqual(app.classify_feature({'CONCATENATE_title': 'Unknown substation at 72nd Ave'}, results), ('full', 1, 0, 1))
+
  def test_summary_counts_each_station_once_and_includes_partial_repairs(self):
   results={'one':{'name':'One','full':True,'partial':False,'repair_cost':100},'two':{'name':'Two','full':False,'partial':True,'repair_cost':25},'three':{'name':'Three','full':False,'partial':False,'repair_cost':0}}
   blocks={'type':'FeatureCollection','features':[{'id':i,'properties':{'CONCATENATE_title':'One|Two'}} for i in range(3)]}
