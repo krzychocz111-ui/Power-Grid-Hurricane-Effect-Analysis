@@ -439,3 +439,16 @@ button:disabled {
     .resourcePage { padding: 14px; }
     .resourceTreeList { padding-left: 12px; }
 }
+
+.substationToggle { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.substationToggle input { width: auto; margin: 0; }
+.substationMarkers { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
+.substationMarker { position: absolute; width: 24px; height: 24px; min-height: 0; padding: 0; border: 0; background: transparent; font-size: 24px; line-height: 24px; transform: translate(-50%, -50%); pointer-events: auto; text-shadow: -1px -1px white, 1px -1px white, -1px 1px white, 1px 1px white; }
+.substationMarker.good, .substationLegend .good { color: #14532d; }
+.substationMarker.partial, .substationLegend .partial { color: #c65d00; }
+.substationMarker.full, .substationLegend .full { color: #8b111b; }
+.substationMarker.unknown { color: #64748b; }
+.substationMarker:hover, .substationMarker:focus-visible { background: transparent; outline: 2px solid #152235; outline-offset: 2px; }
+.substationLegend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; }
+.mapToolbar { flex-wrap: wrap; }
+.substationLegend span { background: transparent; } .substationLegend .unknown { color: #64748b; }

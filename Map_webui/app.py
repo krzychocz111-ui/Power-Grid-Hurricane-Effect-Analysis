@@ -333,6 +333,8 @@ def build_dashboard_state(substations, custom_info=None, include_geojson=True):
     blocks = load_blocks()
     statuses = []
     summary = {
+        "fully_outaged_substations": sum(bool(item["full"]) for item in substations.values()),
+        "substation_repair_cost": sum(item["repair_cost"] for item in substations.values()),
         "full_outage_mw": 0.0,
         "partial_outage_mw": 0.0,
         "residential_full_customers": 0,
@@ -398,6 +400,7 @@ def build_dashboard_state(substations, custom_info=None, include_geojson=True):
         "summary": summary,
         "load_labels": LOAD_LABELS,
         "statuses": statuses,
+        "substations": list(substations.values()),
         "custom_csv": custom_info or {"matched": 0, "rows": 0},
     }
     if include_geojson:

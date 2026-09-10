@@ -1,0 +1,967 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ward Creek Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.08618935591362,
+          30.385433807588583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Highland [LA] Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.15876903753474,
+          30.39539935783219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoechst Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2010198641104,
+          30.555055270024916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grace Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.20456529804285,
+          30.5621937069932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baker Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.16951106115951,
+          30.584338803503055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thomas Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17672888522854,
+          30.56263676235687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zachary Rea Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.16121229880068,
+          30.642125666379407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zachary Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.15758260648785,
+          30.65007726092385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Horseshoe Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.27437872823931,
+          30.67006945239269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenandoah Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.00486924893605,
+          30.387852841648467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pecue Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.04781102639059,
+          30.36166716816952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sharp Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.06063729149318,
+          30.472116423195644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capitol Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18941729846088,
+          30.458351978021437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PDC 12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18842063472117,
+          30.48133979556969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beauregard Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18828495946886,
+          30.44104853797535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jaguar Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18267221370844,
+          30.51937677728554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nesser Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0717512481883,
+          30.408646044535175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Concord Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.13935476170039,
+          30.416137753594832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Julia Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17350062306673,
+          30.437263338277226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Alaska St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18409027445301,
+          30.42277660484041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gloria Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.01814059512591,
+          30.45627669045137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harrelson Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.05899577931326,
+          30.435829733632442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jones Creek Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.02240888360454,
+          30.423352883321495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drusilla Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0859772376239,
+          30.43069660666094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenwell Springs Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.10693892441722,
+          30.479059846954417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sears Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.12547321239587,
+          30.45440887495151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westdale Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.13696312481719,
+          30.42779680466545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dawson Creek Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.09862452328758,
+          30.391278065695012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17786323644683,
+          30.45247801599565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gardere Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1415081285393,
+          30.345584011380573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Line Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1673284137339,
+          30.545142619703075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dixie Baker Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1672537583439,
+          30.61168021881741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tiger Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17602502915229,
+          30.384861336449625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1432618456881,
+          30.44944282393312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oak Villa Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.08698999468196,
+          30.45727513033397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Linde LLC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2034599956459,
+          30.560298612653202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at ExxonMobil Baton Rouge Plastics Plant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17744793271457,
+          30.55332441732765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at W.K. Gordon St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18799996625,
+          30.53035418900857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blount Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.19305549153125,
+          30.540340211244278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esso Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17734422850323,
+          30.489202474435057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mickens Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.12369267245101,
+          30.520897531101483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Evangeline St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.13472829784999,
+          30.49257069561826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belfair Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.14431193044116,
+          30.473901063633313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northdale Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.16924641657849,
+          30.468070808232188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Wooddale Blvd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.10812565280645,
+          30.456051277183658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Jefferson Hwy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1088748055326,
+          30.429859811240934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weiner Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.02894497979773,
+          30.409859715409816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Jefferson Hwy#2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.03429508601683,
+          30.38924293175933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flannery Rea Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.03238625407297,
+          30.47489007643009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at S Choctaw Dr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.04309545415559,
+          30.474181063802607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation next to Flannery Rea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.03265473266363,
+          30.47317855830197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Goudchaux Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17746761031087,
+          30.510856803636386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delmont Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.16263812368426,
+          30.494699807858655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at 72nd Ave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.16051894672505,
+          30.514977799027836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at ExxonMobil Baton Rouge Polyolefins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.21394922167164,
+          30.560325557946445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at ExxonMobil Baton Rouge Chemical North"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17421666568814,
+          30.501445024792346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mohican Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18847941957503,
+          30.492756843148868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Exxon Pipeline Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18730796524058,
+          30.49273488658633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Louisiana Station Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18748834335635,
+          30.491022240862918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enco Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18517136186317,
+          30.491018774505385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaiser Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18485553217558,
+          30.5048146138813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Formosa Co Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18560833834998,
+          30.498915722231473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Louisiana 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.17862272698525,
+          30.49390118539305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LSU Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18143906847017,
+          30.40972747726491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Broussard St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.15350700034946,
+          30.436442885805068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Exxon Co Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.18890678498661,
+          30.481763957828928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Repapco Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.27997314567295,
+          30.65276430241751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Hudson Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.24517528348012,
+          30.638787178891445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zoar Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0036408557856,
+          30.56733510238898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown subsation at S Vignes Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.97618379343093,
+          30.371751559583874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandy Creek Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.26563047945501,
+          30.695914022140936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown subsation at S Harrells Ferry Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.97269810824469,
+          30.415689907072714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown substation at Denham Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.00607981052806,
+          30.591513125745998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alsen Entergy Power Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.21237276099302,
+          30.577601685132393
+        ]
+      }
+    }
+  ]
+}
