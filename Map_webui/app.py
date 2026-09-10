@@ -16,6 +16,7 @@ import time
 import traceback
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from resource_library import ResourceLibraryMixin
 
 LIBREOFFICE_PROGRAM = r"C:\Program Files\LibreOffice\program"
 if LIBREOFFICE_PROGRAM not in sys.path:
@@ -435,7 +436,7 @@ class UploadedFile:
         return self._content
 
 
-class DashboardHandler(SimpleHTTPRequestHandler):
+class DashboardHandler(ResourceLibraryMixin, SimpleHTTPRequestHandler):
     server_version = "EBRPDashboard/1.0"
 
     def __init__(self, *args, **kwargs):
@@ -509,6 +510,8 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         try:
+            if self.handle_resource_request(FILES_DIR):
+                return
             if self.path == "/":
                 self.path = "/index.html"
                 return super().do_GET()

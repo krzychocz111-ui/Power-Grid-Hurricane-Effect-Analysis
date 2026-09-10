@@ -424,3 +424,18 @@ button:disabled {
         grid-template-columns: 1fr;
     }
 }
+
+/* Numbered, collapsible resource hierarchy. */
+.resourcePage { max-width: 1200px; margin: 0 auto; }
+.resourceActions { display: flex; gap: 10px; margin-top: 16px; }
+.resourceTreeList { list-style: none; padding-left: 22px; margin: 8px 0; }
+#resourceTree > .resourceTreeList { padding-left: 0; }
+#resourceTree > .resourceTreeList > li { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; margin: 10px 0; padding: 12px; }
+.resourceTreeList summary { cursor: pointer; font-weight: 600; padding: 6px 0; overflow-wrap: anywhere; }
+.resourceFile { padding: 5px 0; line-height: 1.5; overflow-wrap: anywhere; }
+.resourceMeta { font-size: 0.85em; font-weight: 400; color: #526174; }
+.resourceActions button:disabled { opacity: 0.5; cursor: default; }
+@media (max-width: 680px) {
+    .resourcePage { padding: 14px; }
+    .resourceTreeList { padding-left: 12px; }
+}
