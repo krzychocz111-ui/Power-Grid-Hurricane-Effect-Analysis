@@ -19,4 +19,18 @@ class SubstationTest(unittest.TestCase):
   self.assertEqual(state['summary']['substation_repair_cost'],125)
   self.assertEqual(len(state['substations']),3)
   self.assertNotIn('geojson',state)
+ def test_ebrp_totals_are_subset_and_deduplicated(self):
+  results = {'one': {'name':'One','full':True,'partial':False,'repair_cost':100},
+             'two': {'name':'Two','full':False,'partial':True,'repair_cost':25},
+             'outside': {'name':'Outside','full':True,'partial':False,'repair_cost':300}}
+  locations = {'features':[{'properties':{'name':n}} for n in ['One','One','Two']]}
+  with patch.object(app,'load_blocks',return_value={'features':[]}), patch.object(app.Path,'read_text',return_value=app.json.dumps(locations)):
+   summary = app.build_dashboard_state(results)['summary']
+  self.assertEqual(summary['ebrp_fully_outaged_substations'],1)
+  self.assertEqual(summary['ebrp_substation_repair_cost'],125)
+  self.assertEqual(summary['ebrp_modeled_substations'],2)
+  self.assertEqual(summary['fully_outaged_substations'],2)
+  self.assertEqual(summary['substation_repair_cost'],425)
+  self.assertEqual(summary['modeled_substations'],3)
+
 if __name__=='__main__':unittest.main()

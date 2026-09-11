@@ -330,10 +330,32 @@ def classify_feature(props, substations):
     return "served", full, partial, total
 
 
+def ebrp_substation_keys(substations):
+    locations = json.loads((DATA_DIR / "dashboard_substations.geojson").read_text(encoding="utf-8"))
+    aliases = {
+        "Unknown substation at S Choctaw Dr": "Sharp Entergy substation (Unknown substation at S Choctaw Dr)",
+        "Unknown substation at Linde LLC": "Unknown substation at Linde LLC (probably not a substation!)",
+    }
+    keys = set()
+    for feature in locations["features"]:
+        name = feature["properties"]["name"]
+        for candidate in (name, aliases.get(name, "")):
+            key = normalize_name(candidate)
+            if key in substations:
+                keys.add(key)
+                break
+    return keys
+
+
 def build_dashboard_state(substations, custom_info=None, include_geojson=True):
     blocks = load_blocks()
+    ebrp_keys = ebrp_substation_keys(substations)
     statuses = []
     summary = {
+        "ebrp_fully_outaged_substations": sum(bool(substations[key]["full"]) for key in ebrp_keys),
+        "ebrp_substation_repair_cost": sum(substations[key]["repair_cost"] for key in ebrp_keys),
+        "ebrp_modeled_substations": len(ebrp_keys),
+        "modeled_substations": len(substations),
         "fully_outaged_substations": sum(bool(item["full"]) for item in substations.values()),
         "substation_repair_cost": sum(item["repair_cost"] for item in substations.values()),
         "full_outage_mw": 0.0,

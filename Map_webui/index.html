@@ -87,7 +87,14 @@
 
             <section class="panelSection">
                 <h2>Substations</h2>
-                <p class="empty">All modeled substations</p>
+                <h3>EBRP — shown on map</h3>
+                <p id="ebrpStationCount" class="empty"></p>
+                <div class="metricGrid">
+                    <div><span>Fully outaged substations</span><strong id="ebrpFullSubstations">0</strong></div>
+                    <div><span>Total repair cost (USD)</span><strong id="ebrpRepairCost">$0</strong></div>
+                </div>
+                <h3>Whole modeled system</h3>
+                <p id="systemStationCount" class="empty">Includes EBRP and external substations</p>
                 <div class="metricGrid">
                     <div><span>Fully outaged substations</span><strong id="fullSubstations">0</strong></div>
                     <div><span>Total repair cost (USD)</span><strong id="repairCost">$0</strong></div>
@@ -377,6 +384,10 @@
         function updateSummary(data) {
             hoverCard.hidden = true;
             substationResults = new Map((data.substations || []).map(item => [normalizeSubstation(item.name), item]));
+            document.getElementById("ebrpFullSubstations").textContent = fmtNumber(data.summary.ebrp_fully_outaged_substations);
+            document.getElementById("ebrpRepairCost").textContent = fmtCost(data.summary.ebrp_substation_repair_cost || 0);
+            document.getElementById("ebrpStationCount").textContent = `${fmtNumber(data.summary.ebrp_modeled_substations)} matched substations`;
+            document.getElementById("systemStationCount").textContent = `${fmtNumber(data.summary.modeled_substations)} substations, including EBRP and external connections`;
             document.getElementById("fullSubstations").textContent = fmtNumber(data.summary.fully_outaged_substations);
             document.getElementById("repairCost").textContent = fmtCost(data.summary.substation_repair_cost || 0);
             drawSubstations();
