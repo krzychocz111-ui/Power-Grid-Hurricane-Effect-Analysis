@@ -35,7 +35,16 @@ try {
             Write-Progress -Activity 'Preparing LibreOffice' -Completed
         }
     }
-    Write-Host 'Checking bundled Python and UNO...'
+    # The installed distribution keeps VC++ DLLs in System64 for its installer.
+    # A portable launch needs them beside the x64 executables instead.
+    $programDir = Join-Path $runtimeDir 'program'
+    $systemDllDir = Join-Path $runtimeDir 'System64'
+    if (!(Test-Path -LiteralPath $systemDllDir)) { throw 'Bundled System64 runtime files are missing. Re-extract the complete download.' }
+    Get-ChildItem -LiteralPath $systemDllDir -Filter '*.dll' -File | ForEach-Object {
+        $target = Join-Path $programDir $_.Name
+        if (!(Test-Path -LiteralPath $target)) { Copy-Item -LiteralPath $_.FullName -Destination $target }
+    }
+    Write-Host 'Checking bundled Python and UNO...' 
     $diagnostic = & $pythonPath (Join-Path $PSScriptRoot 'check_runtime.py') 2>&1
     $checkExit = $LASTEXITCODE
     $diagnostic | ForEach-Object { Write-Host $_ }
