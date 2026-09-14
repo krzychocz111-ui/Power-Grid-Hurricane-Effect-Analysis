@@ -28,6 +28,10 @@
                     <span><i class="swatch full"></i> Full outage</span>
                 </div>
                 <label class="substationToggle"><input id="showSubstations" type="checkbox"> Show substations (◆)</label>
+                <label class="substationToggle"><input id="showTransmission" type="checkbox" disabled> Transmission lines</label>
+                <label class="substationToggle"><input id="showPlants" type="checkbox" disabled> Generation plants (▲)</label>
+                <span class="voltageLegend" title="Transmission voltage colors">Lines: <span style="color:#0891b2">&lt;100</span> · <span style="color:#dc2626">100–219</span> · <span style="color:#7c3aed">220–344</span> · <span style="color:#ea580c">345–499</span> · <span style="color:#b45309">500–734</span> · <span style="color:#d946ef">735+ kV</span> · gray: unknown</span>
+                <span id="referenceStatus" role="status">Loading reference layers…</span>
                 <div id="mapHint">Loading ArcGIS-derived census block layer...</div>
             </div>
             <svg id="map" role="img" aria-label="Census blocks colored by outage status"></svg>
@@ -87,7 +91,7 @@
 
             <section class="panelSection">
                 <h2>Substations</h2>
-                <h3>EBRP � shown on map</h3>
+                <h3>EBRP — shown on map</h3>
                 <p id="ebrpStationCount" class="empty"></p>
                 <div class="metricGrid">
                     <div><span>Fully outaged substations</span><strong id="ebrpFullSubstations">0</strong></div>
@@ -118,6 +122,8 @@
         const buildingSelectionStatus = document.getElementById("buildingSelectionStatus");
         const statusText = document.getElementById("status");
         const mapHint = document.getElementById("mapHint");
+        let transmissionLayer = null;
+        let plantLayer = null;
         let substationLayer = null;
         let substationResults = new Map();
         let featureLayer = null;
@@ -199,7 +205,7 @@
                 const marker = document.createElement("button");
                 marker.type = "button";
                 marker.className = `substationMarker ${status}`;
-                marker.textContent = "◆";
+                marker.textContent = "\u25c6";
                 marker.style.left = `${x + mapRect.left - panelRect.left}px`;
                 marker.style.top = `${y + mapRect.top - panelRect.top}px`;
                 marker.setAttribute("aria-label", `${name}: ${label}`);
@@ -224,12 +230,93 @@
             }
         }
 
+        function voltageColor(voltage) {
+            if (voltage >= 735) return "#d946ef";
+            if (voltage >= 500) return "#b45309";
+            if (voltage >= 345) return "#ea580c";
+            if (voltage >= 220) return "#7c3aed";
+            if (voltage >= 100) return "#dc2626";
+            return voltage > 0 ? "#0891b2" : "#64748b";
+        }
+
+        function drawReferenceLayers() {
+            const svg = tag => document.createElementNS("http://www.w3.org/2000/svg", tag);
+            const group = svg("g");
+            group.classList.add("gridReferenceOverlay");
+            if (document.getElementById("showTransmission").checked && transmissionLayer) {
+                for (const feature of transmissionLayer.features) {
+                    const geom = feature.geometry;
+                    const lines = geom.type === "LineString" ? [geom.coordinates] : geom.type === "MultiLineString" ? geom.coordinates : [];
+                    const path = svg("path");
+                    path.setAttribute("d", lines.map(line => line.map((point, i) => {
+                        const [x,y] = mapProjection(point);
+                        return `${i ? "L" : "M"}${x},${y}`;
+                    }).join(" ")).join(" "));
+                    path.setAttribute("class", "transmissionLine");
+                    path.setAttribute("stroke", voltageColor(Number(feature.properties.VOLTAGE)));
+                    const title = svg("title");
+                    const props = feature.properties;
+                    title.textContent = `${props.OWNER || "Transmission line"} · ${Number(props.VOLTAGE) > 0 ? props.VOLTAGE + " kV" : props.VOLT_CLASS || "Voltage unknown"}`;
+                    path.append(title);
+                    group.append(path);
+                }
+            }
+            if (document.getElementById("showPlants").checked && plantLayer) {
+                for (const feature of plantLayer.features) {
+                    const [x,y] = mapProjection(feature.geometry.coordinates);
+                    const props = feature.properties;
+                    const marker = svg("path");
+                    marker.setAttribute("d", `M${x},${y-9} L${x+8},${y+7} L${x-8},${y+7} Z`);
+                    marker.setAttribute("class", "generationPlant");
+                    marker.setAttribute("tabindex", "0");
+                    marker.setAttribute("role", "button");
+                    marker.setAttribute("aria-label", props.Plant_Name || "Generation plant");
+                    const show = () => {
+                        hoverCard.replaceChildren();
+                        for (const [tag,text] of [["strong",props.Plant_Name || "Generation plant"],["span",`Fuel: ${props.PrimSource || "Unknown"}`],["span",`Capacity: ${props.Total_MW == null ? "Unavailable" : fmtMw(props.Total_MW)}`]]) {
+                            const line=document.createElement(tag);line.textContent=text;hoverCard.append(line);
+                        }
+                        const rect=map.getBoundingClientRect(), panel=map.parentElement.getBoundingClientRect();
+                        hoverCard.hidden=false;
+                        hoverCard.style.left=`${Math.max(4,Math.min(panel.width-244,x+rect.left-panel.left+12))}px`;
+                        hoverCard.style.top=`${Math.max(4,Math.min(panel.height-hoverCard.offsetHeight-4,y+rect.top-panel.top+12))}px`;
+                    };
+                    for (const event of ["mouseenter","focus","click"]) marker.addEventListener(event,show);
+                    marker.addEventListener("keydown",event=>{if(event.key==="Enter" || event.key===" "){event.preventDefault();show();}});
+                    for (const event of ["mouseleave","blur"]) marker.addEventListener(event,()=>hoverCard.hidden=true);
+                    group.append(marker);
+                }
+            }
+            map.append(group);
+        }
+
+        async function loadReferenceLayers() {
+            const failures=[];
+            await Promise.all([["transmission","showTransmission"],["plants","showPlants"]].map(async ([name,id])=>{
+                try {
+                    const response=await fetch(`/data/dashboard_${name}.geojson`);
+                    if(!response.ok) throw new Error(name);
+                    const data=await response.json();
+                    if(name==="transmission") transmissionLayer=data; else plantLayer=data;
+                    document.getElementById(id).disabled=false;
+                } catch { failures.push(name); }
+            }));
+            document.getElementById("referenceStatus").textContent=failures.length ? `Unavailable: ${failures.join(", ")}` : "Reference layers only; no modeled outage status.";
+        }
+
         function drawMap(geojson) {
             featureLayer = geojson;
             featurePaths = new Map();
             const width = map.clientWidth || 900;
             const height = map.clientHeight || 620;
             const bounds = projectBounds(geojson);
+            for (const [id,layer] of [["showTransmission",transmissionLayer],["showPlants",plantLayer]]) {
+                if (document.getElementById(id).checked && layer?.extent) {
+                    const [west,south,east,north]=layer.extent;
+                    bounds.minX=Math.min(bounds.minX,west);bounds.minY=Math.min(bounds.minY,south);
+                    bounds.maxX=Math.max(bounds.maxX,east);bounds.maxY=Math.max(bounds.maxY,north);
+                }
+            }
             mapProjection = makeProjection(bounds, width, height);
             map.setAttribute("viewBox", `0 0 ${width} ${height}`);
             map.replaceChildren();
@@ -247,6 +334,7 @@
                 featurePaths.set(String(feature.id), path);
             });
             map.appendChild(fragment);
+            drawReferenceLayers();
             buildingOverlay = document.createElementNS("http://www.w3.org/2000/svg", "g");
             buildingOverlay.setAttribute("class", "buildingOverlay");
             map.appendChild(buildingOverlay);
@@ -441,6 +529,7 @@
             const [response] = await Promise.all([
                 fetch("/calculate", { method: "POST", body: scenarioForm(true) }),
                 loadBuildingLayer(),
+                loadReferenceLayers(),
                 fetch("/data/dashboard_substations.geojson").then(response => {
                     if (!response.ok) throw new Error("Location data unavailable");
                     return response.json();
@@ -523,6 +612,10 @@
             row.click();
         });
         document.getElementById("showSubstations").addEventListener("change", () => { hoverCard.hidden = true; drawSubstations(); });
+        for (const id of ["showTransmission","showPlants"]) document.getElementById(id).addEventListener("change",()=>{
+            hoverCard.hidden=true;
+            if(featureLayer) drawMap(featureLayer);
+        });
         window.addEventListener("resize", () => featureLayer && drawMap(featureLayer));
         loadState().catch(err => {
             statusText.textContent = `Startup failed: ${err.message || err}`;
