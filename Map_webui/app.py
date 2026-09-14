@@ -18,7 +18,9 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from resource_library import ResourceLibraryMixin
 
-LIBREOFFICE_PROGRAM = r"C:\Program Files\LibreOffice\program"
+from runtime_paths import libreoffice_program
+
+LIBREOFFICE_PROGRAM = str(libreoffice_program())
 if LIBREOFFICE_PROGRAM not in sys.path:
     sys.path.insert(0, LIBREOFFICE_PROGRAM)
 
@@ -32,7 +34,7 @@ INDEX_HTML = BASE_DIR / "index.html"
 DEFAULT_ODS = FILES_DIR / "Substations_default.ods"
 CALCULATED_ODS = FILES_DIR / "Substations_calculated.ods"
 BLOCKS_GEOJSON = DATA_DIR / "dashboard_blocks.geojson"
-LIBREOFFICE_EXE = Path(r"C:\Program Files\LibreOffice\program\soffice.exe")
+LIBREOFFICE_EXE = Path(LIBREOFFICE_PROGRAM) / "soffice.exe"
 LO_PROFILE_DIR = BASE_DIR / "lo_profile"
 UNO_PORT = 2002
 

@@ -398,3 +398,4 @@
 "Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.DBF" -text -diff
 "Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_S0_FILING_LOG.FPT" -text -diff
 "Map_webui/files/ENS/Utility financial data/FERC form 1 2020/FORM1/working/F1_SECURITY.DBF" -text -diff
+/runtime/LibreOffice.zip filter=lfs diff=lfs merge=lfs -text

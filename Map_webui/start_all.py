@@ -11,8 +11,11 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 FILES_DIR = BASE_DIR / "files"
 
-LIBREOFFICE_EXE = r"C:\Program Files\LibreOffice\program\soffice.exe"
-LIBREOFFICE_PYTHON = r"C:\Program Files\LibreOffice\program\python.exe"
+from runtime_paths import libreoffice_program
+
+PROGRAM_DIR = libreoffice_program()
+LIBREOFFICE_EXE = str(PROGRAM_DIR / "soffice.exe")
+LIBREOFFICE_PYTHON = str(PROGRAM_DIR / "python.exe")
 
 PREFERRED_WEB_PORT = 5000
 UNO_PORT = 2002
