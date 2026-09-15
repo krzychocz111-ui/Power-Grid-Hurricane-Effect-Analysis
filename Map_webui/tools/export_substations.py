@@ -13,6 +13,8 @@ target.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER)
 transform = osr.CoordinateTransformation(source, target)
 features = []
 for feature in layer:
+    if feature.GetField("title") == "Unknown substation at Linde LLC":
+        continue
     geometry = feature.GetGeometryRef().Clone()
     geometry.Transform(transform)
     features.append({'type': 'Feature', 'properties': {'name': feature.GetField('title')},

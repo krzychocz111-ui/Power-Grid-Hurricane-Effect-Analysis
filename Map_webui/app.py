@@ -314,11 +314,18 @@ def feature_load_mw(props):
     return residential_mw + building_mw
 
 
+def is_excluded_substation(name):
+    return normalize_name(name) in {
+        "unknown substation at linde llc",
+        "unknown substation at linde llc (probably not a substation!)",
+    }
+
+
 def classify_feature(props, substations):
     names = [
         normalize_name(name)
         for name in str(props.get("CONCATENATE_title") or "").split("|")
-        if normalize_name(name)
+        if normalize_name(name) and not is_excluded_substation(name)
     ]
     if not names:
         return "served", 0, 0, 0
@@ -336,7 +343,6 @@ def ebrp_substation_keys(substations):
     locations = json.loads((DATA_DIR / "dashboard_substations.geojson").read_text(encoding="utf-8"))
     aliases = {
         "Unknown substation at S Choctaw Dr": "Sharp Entergy substation (Unknown substation at S Choctaw Dr)",
-        "Unknown substation at Linde LLC": "Unknown substation at Linde LLC (probably not a substation!)",
     }
     keys = set()
     for feature in locations["features"]:
@@ -350,6 +356,8 @@ def ebrp_substation_keys(substations):
 
 
 def build_dashboard_state(substations, custom_info=None, include_geojson=True):
+    substations = {key: value for key, value in substations.items()
+                   if not is_excluded_substation(value["name"])}
     blocks = load_blocks()
     ebrp_keys = ebrp_substation_keys(substations)
     statuses = []

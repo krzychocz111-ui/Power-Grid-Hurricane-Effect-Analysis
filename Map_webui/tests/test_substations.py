@@ -33,4 +33,16 @@ class SubstationTest(unittest.TestCase):
   self.assertEqual(summary['substation_repair_cost'],425)
   self.assertEqual(summary['modeled_substations'],3)
 
+ def test_linde_is_not_counted_or_used_as_a_supplier(self):
+  name = 'Unknown substation at Linde LLC (probably not a substation!)'
+  results = {app.normalize_name(name): {'name':name,'full':True,'partial':False,'repair_cost':500},
+             'one': {'name':'One','full':True,'partial':False,'repair_cost':100}}
+  props = {'CONCATENATE_title': 'One|Unknown substation at Linde LLC'}
+  self.assertEqual(app.classify_feature(props,results),('full',1,0,1))
+  with patch.object(app,'load_blocks',return_value={'features':[]}):
+   state=app.build_dashboard_state(results)
+  self.assertEqual(state['summary']['modeled_substations'],1)
+  self.assertEqual(state['summary']['substation_repair_cost'],100)
+  self.assertEqual([s['name'] for s in state['substations']],['One'])
+
 if __name__=='__main__':unittest.main()

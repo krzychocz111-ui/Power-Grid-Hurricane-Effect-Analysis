@@ -196,7 +196,6 @@
                 const name = feature.properties.name;
                 const aliases = {
                     "Unknown substation at S Choctaw Dr": "Sharp Entergy substation (Unknown substation at S Choctaw Dr)",
-                    "Unknown substation at Linde LLC": "Unknown substation at Linde LLC (probably not a substation!)"
                 };
                 const result = substationResults.get(normalizeSubstation(name)) || substationResults.get(normalizeSubstation(aliases[name]));
                 const status = !result ? "unknown" : result.full ? "full" : result.partial ? "partial" : "good";

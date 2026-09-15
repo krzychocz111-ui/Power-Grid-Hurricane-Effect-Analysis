@@ -459,19 +459,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Unknown substation at Linde LLC"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.2034599956459,
-          30.560298612653202
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Unknown substation at ExxonMobil Baton Rouge Plastics Plant"
       },
       "geometry": {
