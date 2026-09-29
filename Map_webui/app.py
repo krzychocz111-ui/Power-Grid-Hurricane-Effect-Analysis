@@ -200,6 +200,38 @@ def apply_scenario(sheet, source: str, category: str):
         sheet.getCellRangeByName("I2").Value = 0
 
 
+def restore_hurricane_depths(sheet, desktop):
+    """Recover formulas overwritten by CSV uploads, including saved older sessions."""
+    readonly = uno.createUnoStruct("com.sun.star.beans.PropertyValue")
+    readonly.Name = "ReadOnly"
+    readonly.Value = True
+    template = desktop.loadComponentFromURL(
+        system_path_to_file_url(DEFAULT_ODS), "_blank", 0,
+        (hidden_property(), readonly),
+    )
+    try:
+        original = template.Sheets.getByName("Substations")
+        # Validate before writing: formula row references require matching row order.
+        for row in range(3, 191):
+            if normalize_name(cell_string(sheet, 1, row)) != normalize_name(cell_string(original, 1, row)):
+                raise ValueError("Cannot restore hurricane formulas: default and calculated substation rows differ.")
+        formulas = original.getCellRangeByName("W4:W191").getFormulaArray()
+        for row, (formula,) in enumerate(formulas, 3):
+            if cell_string(original, 1, row) and not formula.startswith("="):
+                raise ValueError("Default workbook is missing a hurricane-depth formula.")
+        sheet.getCellRangeByName("W4:W191").setFormulaArray(formulas)
+    finally:
+        template.close(True)
+
+
+def prepare_inundation_mode(sheet, desktop, source):
+    if source.upper() == "H":
+        restore_hurricane_depths(sheet, desktop)
+    elif source.upper() == "N":
+        # The workbook SWITCH formula does not have an N branch.
+        sheet.getCellRangeByName("W4:W191").setDataArray(tuple((0.0,) for _ in range(188)))
+
+
 def apply_custom_csv(sheet, upload, source: str):
     if upload is None or not upload.filename:
         return {"matched": 0, "rows": 0}
@@ -286,6 +318,7 @@ def recalculate_spreadsheet(source: str, category: str, upload=None, include_geo
         custom_info = {"matched": 0, "rows": 0}
         try:
             sheet = doc.Sheets.getByName("Substations")
+            prepare_inundation_mode(sheet, desktop, source)
             apply_scenario(sheet, source, category)
             if source.upper() in {"G", "S"}:
                 custom_info = apply_custom_csv(sheet, upload, source)
