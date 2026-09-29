@@ -15,6 +15,8 @@
         <nav>
             <a href="./pages/resources.html">Resources</a>
             <a href="/download">Spreadsheet</a>
+            <button id="downloadResultsCsv" type="button" disabled>Results CSV</button>
+            <button id="downloadResultsJson" type="button" disabled>Results JSON</button>
             <a href="/download-map">Map data</a>
         </nav>
     </header>
@@ -114,6 +116,7 @@
         </aside>
     </main>
 
+    <script src="./result_exports.js"></script>
     <script>
         const map = document.getElementById("map");
         const hoverCard = document.getElementById("hoverCard");
@@ -468,7 +471,25 @@
                 : `${label}: no affected locations found.`;
         }
 
+        let displayedResults = null;
+        function downloadResults(format) {
+            if (!displayedResults) return;
+            const text = format === "csv" ? ResultExports.toCsv(displayedResults) : JSON.stringify(displayedResults, null, 2);
+            const blob = new Blob([format === "csv" ? "\uFEFF" : "", text], {type: format === "csv" ? "text/csv;charset=utf-8" : "application/json"});
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = `outage-results-${displayedResults.captured_at.replace(/[:.]/g, "-")}.${format}`;
+            document.body.append(link); link.click(); link.remove();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }
+        document.getElementById("downloadResultsCsv").addEventListener("click", () => downloadResults("csv"));
+        document.getElementById("downloadResultsJson").addEventListener("click", () => downloadResults("json"));
+
         function updateSummary(data) {
+            displayedResults = ResultExports.snapshot(data);
+            document.getElementById("downloadResultsCsv").disabled = false;
+            document.getElementById("downloadResultsJson").disabled = false;
             hoverCard.hidden = true;
             substationResults = new Map((data.substations || []).map(item => [normalizeSubstation(item.name), item]));
             document.getElementById("ebrpFullSubstations").textContent = fmtNumber(data.summary.ebrp_fully_outaged_substations);

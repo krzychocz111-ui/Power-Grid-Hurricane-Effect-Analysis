@@ -1,0 +1,10 @@
+const assert = require('node:assert/strict');
+const exportsApi = require('../result_exports.js');
+const data = {scenario:{source:'H',hurricane_category:2},summary:{total_full_and_partial_mw:1.23456, residential_full_customers:3,residential_partial_customers:2,ebrp_fully_outaged_substations:1,fully_outaged_substations:4,ebrp_substation_repair_cost:12.34,substation_repair_cost:56.78,building_full_mw:{a:1},building_partial_mw:{a:.23456},building_full_customers:{a:2},building_partial_customers:{a:1}},load_labels:{a:'Clinic, "test"',b:'Zero category'},substations:[],statuses:[]};
+const result = exportsApi.snapshot(data);
+data.scenario.source='G';data.summary.total_full_and_partial_mw=99;
+assert.equal(result.scenario.source,'H');assert.equal(result.summary.total_full_and_partial_mw,1.23456);
+assert.equal(result.affected_households,5);assert.equal(result.building_loads[0].total_affected,3);assert.equal(result.building_loads[1].total_outage_mw,0);
+const csv=exportsApi.toCsv(result);assert(csv.includes('"1.23456","MW"'));assert(csv.includes('"Clinic, ""test"""'));assert(csv.includes('"ebrp_substation_repair_cost","12.34","USD"'));
+result.scenario.custom_csv_filename='=bad.csv';assert(exportsApi.toCsv(result).includes("'=bad.csv"));
+console.log('Export checks passed: displayed snapshot, precision, totals, units, zero categories, CSV escaping.');

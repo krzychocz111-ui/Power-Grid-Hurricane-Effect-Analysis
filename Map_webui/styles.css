@@ -456,3 +456,5 @@ button:disabled {
 .generationPlant { fill: #153e75; stroke: white; stroke-width: 1.5; cursor: pointer; }
 .generationPlant:hover, .generationPlant:focus { fill: #2563eb; stroke: #111827; outline: none; }
 #referenceStatus { font-size: 11px; color: #526174; }
+.topbar nav { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.topbar nav button { width: auto; min-height: 0; padding: 6px 10px; font-size: 13px; }

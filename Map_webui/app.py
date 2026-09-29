@@ -330,7 +330,10 @@ def recalculate_spreadsheet(source: str, category: str, upload=None, include_geo
                 doc.close(True)
             except Exception:
                 pass
-    return build_dashboard_state(substations, custom_info, include_geojson=include_geojson)
+    response = build_dashboard_state(substations, custom_info, include_geojson=include_geojson)
+    response["scenario"] = {"source": source.upper(), "hurricane_category": int(category) if source.upper() == "H" else None,
+                            "custom_csv_filename": upload.filename if upload and source.upper() in {"G", "S"} else None}
+    return response
 
 
 def load_blocks():
@@ -486,9 +489,13 @@ def current_state(include_geojson=True):
         )
         try:
             sheet = doc.Sheets.getByName("Substations")
-            return build_dashboard_state(
+            response = build_dashboard_state(
                 read_substation_results(sheet), include_geojson=include_geojson
             )
+            source = sheet.getCellRangeByName("I1").String.upper()
+            response["scenario"] = {"source": source, "hurricane_category": int(sheet.getCellRangeByName("I2").Value) if source == "H" else None,
+                                    "custom_csv_filename": None}
+            return response
         finally:
             try:
                 doc.close(True)
