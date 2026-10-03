@@ -87,6 +87,7 @@ def column_index(name: str) -> int:
     return value - 1
 
 
+COL_TOTAL_FLOOD_TIME = column_index("Z")
 COL_OUTPUT_SURVIVAL = column_index("AC")
 COL_OUTPUT_COMPLETE = column_index("AD")
 COL_OUTPUT_REDUCED = column_index("AE")
@@ -293,6 +294,8 @@ def read_substation_results(sheet):
         out_other = truthy_cell(sheet, COL_OUTPUT_OUT_OTHER, row_idx)
         full = direct_out or out_other or complete_probability >= 0.5
         partial = (not full) and (reduced_other or reduced_probability >= 0.5)
+        total_flood_hours = cell_value(sheet, COL_TOTAL_FLOOD_TIME, row_idx)
+        lead_time_days = cell_value(sheet, COL_OUTPUT_LEAD_TIME, row_idx)
         results[normalize_name(name)] = {
             "name": name,
             "full": full,
@@ -301,7 +304,9 @@ def read_substation_results(sheet):
             "reduced_probability": reduced_probability,
             "survival_probability": cell_value(sheet, COL_OUTPUT_SURVIVAL, row_idx),
             "repair_cost": cell_value(sheet, COL_OUTPUT_REPAIR_COST, row_idx),
-            "lead_time_days": cell_value(sheet, COL_OUTPUT_LEAD_TIME, row_idx),
+            "lead_time_days": lead_time_days,
+            "total_flood_time_hours": total_flood_hours,
+            "time_until_repaired_hours": total_flood_hours + lead_time_days * 24,
             "damaged_long_lead_count": cell_value(
                 sheet, COL_OUTPUT_DAMAGED_LONG_LEAD, row_idx
             ),

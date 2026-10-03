@@ -189,6 +189,10 @@
         const normalizeSubstation = name => String(name || "").trim().toLowerCase().replace(/\s+/g, " ").replace(/\b(\d+)\s+(st|nd|rd|th)\b/g, "$1$2");
         const fmtCost = value => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 2 }).format(value);
 
+        const fmtHours = value => Number.isFinite(value)
+            ? `${new Intl.NumberFormat(undefined, { maximumFractionDigits: 1 }).format(value)} hours`
+            : "Unavailable";
+
         function drawSubstations() {
             const container = document.getElementById("substationMarkers");
             container.replaceChildren();
@@ -213,7 +217,9 @@
                 marker.setAttribute("aria-label", `${name}: ${label}`);
                 const show = () => {
                     hoverCard.replaceChildren();
-                    for (const [tag, text] of [["strong", result?.name || name], ["span", label], ["span", `Repair cost: ${result ? fmtCost(result.repair_cost) : "Unavailable"}`]]) {
+                    for (const [tag, text] of [["strong", result?.name || name], ["span", label], ["span", `Repair cost: ${result ? fmtCost(result.repair_cost) : "Unavailable"}`],
+                        ["span", `Time until inundation ends: ${fmtHours(result?.total_flood_time_hours)}`],
+                        ["span", `Time until repaired: ${fmtHours(result?.time_until_repaired_hours)}`]]) {
                         const line = document.createElement(tag);
                         line.textContent = text;
                         hoverCard.append(line);
